@@ -140,7 +140,12 @@ flex-direction: column;
 font-family: 'roboto flex';
 
 
+
 }
+
+  
+
+
 
 .logo_header {
     width: 4%; 
@@ -150,6 +155,7 @@ font-family: 'roboto flex';
    
 }
 
+/* se agrega hover al nav */
 .header__nav {
     display: flex;
      flex-direction: column;
@@ -166,9 +172,16 @@ font-family: 'roboto flex';
     color: white;
     gap: 40px;
     padding-right: 1rem;
+    transition-property: all;
+transition-duration: 0.3s;
+transition-delay: 0.3s;
 
 }
 
+.header__nav ul a:hover {
+    
+    color:rgb(101, 96, 106);
+  }
 
 
 
@@ -202,18 +215,29 @@ font-family: 'roboto flex';
   
 }
 
+/* se agrega hover al footer */
 
 .footer_nav a {
     color: rgb(191, 184, 184);
     font-size: 1.5rem;
     font-family: 'roboto flex';
     text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
  
 }
 
 .footer li {
     list-style: none;
+   
 }
+
+.footer_nav a:hover {
+    
+    color:rgb(255, 255, 255);
+  }
+
 
 .logo_footer {
     width: 5%;
@@ -290,7 +314,7 @@ span {
 
 /* enlaces a tienda */ 
 
-
+/*se agrega hover */
 .div_nuestras_leyendas {
     
     margin-top: 2%;
@@ -303,7 +327,14 @@ span {
     font-size: 4rem;
     text-align: center;
     font-family: 'oswald';
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
     
+}
+
+.div_nuestras_leyendas:hover {
+    color:rgb(101, 96, 106);
 }
 
 main {
@@ -321,7 +352,11 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10rem;
+    
+    
 }
+
+/*se agrega transform: scale a imagenes */
 
 .leyendas__Imagen_a_tienda--riv {
     width: 18rem;
@@ -329,7 +364,48 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: transform 1s;
 }
+
+.leyendas__Imagen_a_tienda--riv:hover {
+    
+    transform: scale(1.05);
+
+}
+
+.leyendas__Imagen_a_tienda--boc {
+
+    transition: transform 1s;
+}
+
+.leyendas__Imagen_a_tienda--boc:hover {
+
+    transform: scale(1.05);
+}
+
+.leyendas__Imagen_a_tienda--ind {
+
+    transition: transform 1s;
+}
+
+.leyendas__Imagen_a_tienda--ind:hover {
+
+    transform: scale(1.05);
+}
+
+.leyendas__Imagen_a_tienda--lqv {
+
+    transition: transform 1s;
+}
+
+.leyendas__Imagen_a_tienda--lqv:hover {
+
+    transform: scale(1.05);
+}
+
+
+
+
 
 .parrafo__leyenda--riv {    
 
@@ -396,17 +472,19 @@ main {
    
     
 }
+
+/*se modificó el gradiente */
 .section_video {
 
     height: 100vh;
     width: 100%;
     /* background-color: rgb(255, 255, 255); */
-    background-color: rgb(2, 2, 46);
+    /* background-color: rgb(2, 2, 46); */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6); */
+    background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6);
 }
 
 .div_nuestras_leyendas_1 {
@@ -422,14 +500,26 @@ main {
     font-size: 4rem;
     text-align: center;
     font-family: 'oswald';
-    /* background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6); */
+ 
 }
 
+/* se agrega hover */
 .nuestras_leyendas_a {
     
     text-decoration: none;
     width: 100%;
     color: #fff;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+    
+    
+}
+
+.nuestras_leyendas_a:hover {
+    
+ 
+    color: rgb(209, 12, 12);
     
     
     
@@ -527,7 +617,7 @@ main {
     float: right;
     
 }
-
+ /* se agrega hover al carrito */
 .carrito {
 
     background-color: rgb(64, 145, 64);
@@ -537,7 +627,21 @@ main {
     color: #fff;
     padding-left:  5%;
     padding-right: 5%;
+
+    transition-property: all;
+transition-duration: 0.1s;
+transition-delay: 0.1s;
+
 }
+
+
+.carrito:hover {
+    
+    background-color: rgb(112, 217, 112);
+   
+  }
+
+
 
 
 .section_tienda2 {
@@ -600,16 +704,20 @@ main {
     align-items: center;
     gap: 10rem;
     width: 100%;
-    transition: height  1s; width: 1s;
+ 
 }
 
 .fotos_continuas img {  
     width: 10%;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+
 }
 
 .fotos_continuas img:hover {
-    height: 12%;
-    width: 12%;
+    transform: scale(1.05);
+    filter: brightness(1.1);
 }
 
 
@@ -641,12 +749,52 @@ aside {
     color: #000000;
     font-size: 1.5rem;
     text-align: center;
+   
     
 
 }
 
+.aside__tienda--boc { 
+    
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
 
+}
+.aside__tienda--boc:hover {
+    
+    transform: scale(1.01);
+    filter: brightness(1.1);
+    
+}
 
+.aside__tienda--ind { 
+    
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+
+}
+.aside__tienda--ind:hover {
+    
+    transform: scale(1.01);
+    filter: brightness(1.1);
+    
+}
+
+.aside__tienda--san { 
+    
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+
+}
+.aside__tienda--san:hover {
+    
+    transform: scale(1.01);
+    filter: brightness(1.1);
+    
+}
 /* ESTILOS NOSOTROS*/
 
 
@@ -812,8 +960,12 @@ h5 {
     background-color: rgb(255, 255, 255);
     margin-top: 0%;
     margin-bottom: 0%;
+   
 
 }
+
+
+
 
 .post {
 
@@ -835,6 +987,79 @@ h5 {
     color: #fff;
 
 }
+
+/* se agregan filtros a los videos */
+
+.artista {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.artista:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.diseno {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.diseno:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.impresion {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.impresion:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.post1{
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.post1:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.pintura {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.pintura:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
 
 
 /* ESTILO GIFT CARD */
@@ -977,6 +1202,13 @@ h5 {
       .footer { 
           grid-area: footer; }
       
+ .gift {
+    position: absolute;
+     left: 30%;
+     top: 13%;
+        
+  }   
+
 
           @media screen and (max-width: 680px) {
 
@@ -1051,6 +1283,16 @@ h5 {
 }
 
 
+.gift {
+    position: absolute;
+     left: 0%;
+     top: 5%;
+        
+  }   
+
 
             }
-            
+
+
+        
+

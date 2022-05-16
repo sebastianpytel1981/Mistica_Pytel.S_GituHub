@@ -1212,6 +1212,14 @@ h5 {
 
           @media screen and (max-width: 680px) {
 
+            #header {
+
+                font-size: 1.4rem;
+              
+                
+                
+                }
+
       .div_nuestras_leyendas { 
        
         font-size: 3rem;
@@ -1240,6 +1248,15 @@ h5 {
       
 
        }
+       .imagen__portada {
+
+      width: 15%;
+      height: 25%;
+    
+    }
+    
+ 
+    
 
      .imagen1 {
 
@@ -1292,6 +1309,116 @@ h5 {
 
 
             }
+
+            @media screen and (max-width: 412px) {
+
+                
+                .header__nav ul a {
+
+                    font-size: 1rem;
+                                   
+                    }
+
+                .div_nuestras_leyendas { 
+                 
+                  font-size: 1rem;
+                      }
+                 .nuestras_leyendas_a {
+          
+                  font-size: 1rem;
+                 }
+          
+
+                 .imagen__portada {
+
+                  width: 5%;
+                  height: 10%;
+                
+                }
+                
+           
+                 .div1_somos_p p {
+          
+                  font-size: 1rem;
+                  
+                 }
+          
+                 .div1_somos_p2 {
+          
+                width: 40%;
+                
+          
+                 }
+          
+                 .div1_somos_p2 p{
+          
+                  font-size: 1rem;
+                
+          
+                 }
+          
+               .imagen1 {
+          
+                  position: absolute; 
+                  left: 40px;
+                  bottom: 35%;
+                  width: 10rem;
+                  height: 15rem;
+          
+               }
+          
+          .imagen2 {
+          
+              bottom: 5%;
+          }
+          
+          .pform {
+              font-size: 1.2rem;
+          }
+          
+          .Detalle_tienda {
+          
+              font-size: 1.2rem;
+          }
+          
+          .Detalle_tienda_ul {
+          
+              font-size: 1rem;
+          }
+          
+          .tienda_carrito1 {
+          
+              background-color: #000000;
+              color: #fff;
+          
+          }
+          
+          .section_portada {
+          
+              height: 30vh;
+          }
+          
+          
+          .gift {
+              position: absolute;
+               left: 0%;
+               top: 5%;
+                  
+            }   
+
+
+            .leyendas__Imagen_a_tienda {
+               
+                gap: 1.2rem;
+                
+                
+            }
+            .nuestras_leyendas_a{
+              justify-content: flex-start;
+
+            }
+                      }
+          
 
 
         

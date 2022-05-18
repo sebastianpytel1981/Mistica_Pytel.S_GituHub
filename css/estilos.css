@@ -148,7 +148,7 @@ font-family: 'roboto flex';
 
 
 .logo_header {
-    width: 4%; 
+    width: 8%; 
  
     
    
@@ -165,7 +165,7 @@ font-family: 'roboto flex';
     
 } 
 
-.header__nav ul a {
+.navbar-nav ul a {
 
     text-decoration: none;
     font-size: 2rem;
@@ -178,7 +178,7 @@ transition-delay: 0.3s;
 
 }
 
-.header__nav ul a:hover {
+.navbar-nav:hover {
     
     color:rgb(101, 96, 106);
   }
@@ -270,6 +270,25 @@ transition-delay: 0.3s;
     
 }
 
+.d-block {
+
+    background-color: #000000;
+
+}
+
+.carousel-caption h1{
+
+    font-size: 6rem;
+    font-family: 'oswald';
+}
+
+
+.carousel-caption p{
+
+    font-size: 2rem;
+    font-family: 'roboto';
+}
+
 .portada__h1 {
     margin-bottom: 0;
     
@@ -302,10 +321,10 @@ span {
 
 .section_portada img {
 
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 60%;
     margin-top: 5%;
   
    
@@ -465,25 +484,24 @@ main {
 
 
 #servicios {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    height: 30%;
+    background-color: #258a1a;
    
     
 }
 
+
 /*se modificó el gradiente */
 .section_video {
 
-    height: 100vh;
+   
     width: 100%;
     /* background-color: rgb(255, 255, 255); */
     /* background-color: rgb(2, 2, 46); */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6);
 }
 
@@ -503,6 +521,12 @@ main {
  
 }
 
+
+
+.videos {
+
+    height: 100px;
+}
 /* se agrega hover */
 .nuestras_leyendas_a {
     
@@ -526,15 +550,23 @@ main {
 }
 
 .video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80%;
-    width: 50%;
-    float: right;
+
+   position: relative;
+  
+    height: 100%;
+    width: 100%;
+    background: rgba(186, 186, 189, 0.852);
+  
+   
+
+  
         
 }
 
+.alto {
+
+    height: 60%;
+}
 .leyendas__Imagen_a_tienda--lqv {
 
     height: 500px;  
@@ -800,13 +832,31 @@ aside {
     
    
     width: 100%;
-    height: 130vh;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
     align-items: center;
-    float: right;
+    float: right; */
+    margin-top: 0%;
+
+}
+
+.div_somos {
+
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+.mb-6 {
+
+    color: #ffffff;
+    
+    font-family: 'roboto';
+    font-size: 1.5rem;
 
 }
 
@@ -823,6 +873,26 @@ aside {
     
    
 }
+
+
+.row {
+    
+    background-color: #000000;
+}
+.col-md-6  {
+ background-color: #000000;
+ height: 21rem;
+ margin: 0px;
+}
+
+.pantalla2 {
+    position: relative;
+    left: 40%;  
+    height: 100%;
+}
+
+
+
 
 .titulos_1  {
 
@@ -843,7 +913,7 @@ h5  {
 .div1_somos_p {
 
   
-    background-color: #060000;
+    background-color: #ae0f7e;
     width: 30%;
     height: 70%;
     color: #fff;
@@ -872,7 +942,7 @@ h5  {
 
     width: 100%;
     height: 30%;
-    background-color: #050300;
+    background-color: #b57412;
     
     font-size: 3rem;
     color: #fff;
@@ -887,7 +957,7 @@ h5  {
 .div1_somos_p2{
 
     
-    background-color: #000000;
+    background-color: #258a1a;
     width: 30%;
     color: #fff;
     right: 20px;
@@ -900,8 +970,11 @@ h5  {
 
 .imagen2 {
     position: relative;
-    height: 400px;
-    bottom: 50%;
+    right: 80%;
+    bottom: 40%;
+    width: 5%;
+    height: 15%;
+  
  
     
 } 
@@ -1171,6 +1244,11 @@ h5 {
     }
   
 
+    .grisform {
+
+        background-color: #7f7f8b56;
+    }
+
     /* ESTILOS TIENDA2*/
 
     .container_tienda {  display: grid;
@@ -1203,7 +1281,7 @@ h5 {
  .gift {
     position: absolute;
      left: 30%;
-     top: 13%;
+     top: 8%;
         
   }   
 
@@ -1216,6 +1294,12 @@ h5 {
               
                 
                 
+                }
+
+                .pantalla2 {
+                    position: relative;
+                    left: 40%;  
+                 
                 }
 
       .div_nuestras_leyendas { 
@@ -1301,12 +1385,32 @@ h5 {
 .gift {
     position: absolute;
      left: 0%;
-     top: 5%;
+     top: 25%;
         
   }   
 
+  .imagen3 {
+    position: relative;
+    
+    width: 2.5%;
+    height: 5%;
+  
+ 
+    
+} 
+
 
             }
+
+            @media screen and (max-width: 800px) {
+
+                .pantalla2 {
+                   height: 0%;
+                   width: 0%;
+                }
+
+            }
+
 
             @media screen and (max-width: 412px) {
 
@@ -1400,7 +1504,7 @@ h5 {
           .gift {
               position: absolute;
                left: 0%;
-               top: 5%;
+               top: 25%;
                   
             }   
 
@@ -1415,6 +1519,8 @@ h5 {
               justify-content: flex-start;
 
             }
+
+            
                       }
           
 

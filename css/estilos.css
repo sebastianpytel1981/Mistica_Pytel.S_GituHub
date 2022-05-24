@@ -1196,7 +1196,10 @@ h5 {
     color: #fff;
 }
 
+.colorform {
+    background-color: rgba(0, 0, 0, 0)
 
+}
 .separador {
 
     margin-top: 10.5%;
@@ -1214,7 +1217,7 @@ h5 {
 
 
 
-.container_of {  display: grid;
+/* .container_of {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 1fr 1fr 1fr 0.1fr;
     gap: 0px 0px;
@@ -1247,7 +1250,7 @@ h5 {
     .grisform {
 
         background-color: #7f7f8b56;
-    }
+    } */
 
     /* ESTILOS TIENDA2*/
 

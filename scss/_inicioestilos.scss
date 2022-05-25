@@ -53,34 +53,35 @@
    
    /* background-color: #000a002e; */
    
-   color: rgb(255, 255, 255);
+   color: $color-font;
    display: flex;
    flex-direction: inline-block;
    height: 70vh;
   width: 100%;
    margin-bottom: 0%;
    /* background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281); */
-   background-color: #000000;
+   background-color: $fondo-general;
+
    
 }
 
 .d-block {
 
-   background-color: #000000;
+   background-color: $fondo-general;
 
 }
 
 .carousel-caption h1{
 
    font-size: 6rem;
-   font-family: 'oswald';
+   font-family: $tipo-font-gral;
 }
 
 
 .carousel-caption p{
 
    font-size: 2rem;
-   font-family: 'roboto';
+   font-family: $tipo-font-gral2;
 }
 
 .portada__h1 {
@@ -108,7 +109,7 @@ span {
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   font-family: 'oswald';
+   font-family: $tipo-font-gral;
    font-size: 1.5rem;
 
 }
@@ -134,16 +135,18 @@ span {
    margin-bottom: 0;
    width: 100%;
    height: 10%; 
-   background-color: #000000dc;
-   background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281);
-   color: #fff;
+   background-color: $fondo-general;
+   // background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281);
+   
+   color: $color-font;
+
    font-size: 4rem;
    text-align: center;
-   font-family: 'oswald';
+   font-family: $tipo-font-gral;
    transition-property: all;
    transition-duration: 0.3s;
    transition-delay: 0.3s;
-   
+   background-image: $color-gradiente;
 }
 
 .div_nuestras_leyendas:hover {
@@ -223,8 +226,8 @@ main {
    width: 220px ;
    margin-left: 20%;
    font-size: 1.5rem;
-   font-family:'Roboto'; 
-   color: #fff;
+   font-family: $tipo-font-gral2; 
+   color: $color-font;
    text-align: center;
    padding: 0;
 
@@ -237,8 +240,8 @@ main {
    width: 220px ;
    margin-left: 20%;
    font-size: 1.5rem;
-   font-family:'Roboto'; 
-   color: #fff;
+   font-family: $tipo-font-gral2; 
+   color: $color-font;
    text-align: center;
 
 }
@@ -249,8 +252,8 @@ main {
    width: 220px ;
    margin-left: 20%;
    font-size: 1.5rem;
-   font-family:'Roboto'; 
-   color: #fff;
+   font-family: $tipo-font-gral2; 
+   color: $color-font;
    text-align: center;
    padding: 0%;
 }
@@ -261,8 +264,8 @@ main {
    width: 220px ;
    margin-left: 20%;
    font-size: 1.5rem;
-   font-family:'Roboto'; 
-   color: #fff;
+   font-family: $tipo-font-gral2; 
+   color: $color-font;
    text-align: center;
    padding: 0%;
 }
@@ -289,7 +292,9 @@ main {
    justify-content: center;
    flex-direction: column;
    align-items: center; */
-   background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6);
+   // background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6);
+
+   background-image: $color-grad-az;
 }
 
 .div_nuestras_leyendas_1 {
@@ -301,10 +306,10 @@ main {
    width: 100%;
    height: 10%; 
     
-   color: #fff;
+   color: $color-font;
    font-size: 4rem;
    text-align: center;
-   font-family: 'oswald';
+   font-family: $tipo-font-gral;
 
 }
 
@@ -319,7 +324,7 @@ main {
    
    text-decoration: none;
    width: 100%;
-   color: #fff;
+   color: $color-font;
    transition-property: all;
    transition-duration: 0.3s;
    transition-delay: 0.3s;

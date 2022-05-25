@@ -29,9 +29,9 @@
 
 .mb-6 {
 
-    color: #ffffff;
+    color: $color-font;
     
-    font-family: 'roboto';
+    font-family: $tipo-font-gral2;
     font-size: 1.5rem;
 
 }
@@ -39,10 +39,10 @@
 .Div1__somos {
 
     width: 100%;
-    background-color: #000000;
+    background-color: $fondo-general;
     height: 30%;
     font-size: 2rem;
-    color: rgb(255, 255, 255);
+    color: $color-font;
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
@@ -51,10 +51,10 @@
 
 .row {
     
-    background-color: #000000;
+    background-color: $fondo-general;
 }
 .col-md-6  {
- background-color: #000000;
+ background-color: $fondo-general;
  height: 21rem;
  margin: 0px;
 }
@@ -67,7 +67,7 @@
 
 .titulos_1  {
 
-    background-color: rgb(0, 0, 0);
+    background-color: $fondo-general;
     left: 10px;
     width: 50%;
    
@@ -75,9 +75,9 @@
 
 h5  {
 
-    color: #ffffff;
+    color: $color-font;
     text-align: center;
-    font-family: 'roboto';
+    font-family: $tipo-font-gral2;
     
 }
 
@@ -87,7 +87,7 @@ h5  {
     background-color: #ae0f7e;
     width: 30%;
     height: 70%;
-    color: #fff;
+    color: $color-font;
     right: 20px;
     font-size: 3rem;
     text-align: center;
@@ -114,8 +114,8 @@ h5  {
     background-color: #b57412;
     
     font-size: 3rem;
-    color: #fff;
-    color: rgb(255, 255, 255);
+    color: $color-font;
+    color: $color-font;
     display: flex;
     flex-direction: row;
     margin-bottom: 10%;
@@ -128,7 +128,7 @@ h5  {
     
     background-color: #258a1a;
     width: 30%;
-    color: #fff;
+    color: $color-font;
     right: 20px;
     margin-top: 5%;
     font-size: 2rem;
@@ -154,19 +154,19 @@ h5  {
 
 .tus_idolos {   
 
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: $fondo-general;
+    color: $color-font;
 }
 
 h5 {
 
-    font-family: 'oswald';
+    font-family: $tipo-font-gral;
     font-size: 3rem;
-    color: #fffdfd;
+    color: $color-font;
 
 }
 
 .h6 {
-    color: #000000;
+    color: $fondo-general;
     font-size: 4rem;
 }

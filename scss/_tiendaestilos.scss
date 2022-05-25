@@ -27,11 +27,11 @@ float: right;
 
 .carrito {
 
-background-color: rgb(64, 145, 64);
+background-color: $boton-carrito;
 font-size: 2rem;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-decoration: none;
-color: #fff;
+color: $color-font;
 padding-left:  5%;
 padding-right: 5%;
 
@@ -43,7 +43,7 @@ transition-delay: 0.1s;
 
 .carrito:hover {
 
-background-color: rgb(112, 217, 112);
+background-color: $boton-carrito-hov;
 
 }
 
@@ -71,13 +71,13 @@ color: #080808;
 
 .tienda_carrito, p {
 
-color: #000000;
+color: $fondo-general;
 }
 
 .tienda_carrito1 {
 
-background-color: #000000;
-color: #fff;
+background-color: $fondo-general;
+color: $color-font;
 
 }
 
@@ -129,7 +129,7 @@ width: 100%;
 text-align: center;
 font-size: 2rem;
 margin: 0;
-font-family: 'oswald';
+font-family: $tipo-font-gral;
 }
 
 aside {
@@ -148,7 +148,7 @@ justify-content: center;
 align-items: center;
 gap: 10rem;
 width: 100%;
-color: #000000;
+color: $fondo-general;
 font-size: 1.5rem;
 text-align: center;
 

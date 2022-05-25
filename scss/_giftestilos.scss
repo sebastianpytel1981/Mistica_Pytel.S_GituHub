@@ -12,7 +12,7 @@
 .main__contacto{
     
    height: 100vh;
-   background-color: rgb(255, 255, 255);
+   background-color: $color-font;
    
 }
 
@@ -34,7 +34,7 @@
 .caja__formulario{
     width: 50%;
     height: 70%;
-    background-color: rgba(0, 0, 0, 0.566);
+    background-color: $fondo-form;
     text-align: center;
     margin:0 auto; /*centramos el contenedor*/
    
@@ -52,7 +52,7 @@
 .formulario, p {   
        
     font-size: 2rem;
-    color: #fff;
+    color: $color-font;
 }
 
 .colorform {
@@ -62,12 +62,12 @@
 .separador {
 
     margin-top: 10.5%;
-  background-color: #000000;
+  background-color: $fondo-general;
     width: 100%;
-    color: #fff;
+    color: $color-font;
 }
 
 .separador_p {
-    color: #fff;
+    color: $color-font;
     text-align: center;
 }

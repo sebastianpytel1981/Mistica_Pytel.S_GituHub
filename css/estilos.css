@@ -52,7 +52,7 @@ body {
 .navbar-nav ul a {
   text-decoration: none;
   font-size: 2rem;
-  color: white;
+  color: #fff;
   gap: 40px;
   padding-right: 1rem;
   transition-property: all;
@@ -94,7 +94,7 @@ body {
   list-style: none; }
 
 .footer_nav a:hover {
-  color: white; }
+  color: #fff; }
 
 .logo_footer {
   width: 5%;
@@ -104,10 +104,7 @@ body {
 /* ESTILOS INICIO */
 #grilla {
   display: grid;
-  grid-template-areas: "header header header "
- "productos productos productos"
- "servicios servicios servicios"
- "footer footer footer";
+  grid-template-areas: "header header header " "productos productos productos" "servicios servicios servicios" "footer footer footer";
   /*grid-template-rows: 0.5fr 2fr 1fr 0.5fr; 
       grid-template-columns: 20% auto 15%;*/
   grid-template-rows: 0.2fr 2fr 1fr 0.5fr;
@@ -144,7 +141,7 @@ aside {
 /* ESTILOS INDEX */
 .section_portada {
   /* background-color: #000a002e; */
-  color: white;
+  color: #fff;
   display: flex;
   flex-direction: inline-block;
   height: 70vh;
@@ -158,11 +155,11 @@ aside {
 
 .carousel-caption h1 {
   font-size: 6rem;
-  font-family: 'oswald'; }
+  font-family: "oswald"; }
 
 .carousel-caption p {
   font-size: 2rem;
-  font-family: 'roboto'; }
+  font-family: "roboto"; }
 
 .portada__h1 {
   margin-bottom: 0;
@@ -181,7 +178,7 @@ span {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-family: 'oswald';
+  font-family: "oswald";
   font-size: 1.5rem; }
 
 .section_portada img {
@@ -198,15 +195,15 @@ span {
   margin-bottom: 0;
   width: 100%;
   height: 10%;
-  background-color: #000000dc;
-  background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281);
+  background-color: #000000;
   color: #fff;
   font-size: 4rem;
   text-align: center;
-  font-family: 'oswald';
+  font-family: "oswald";
   transition-property: all;
   transition-duration: 0.3s;
-  transition-delay: 0.3s; }
+  transition-delay: 0.3s;
+  background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281); }
 
 .div_nuestras_leyendas:hover {
   color: #65606a; }
@@ -261,7 +258,7 @@ main {
   width: 220px;
   margin-left: 20%;
   font-size: 1.5rem;
-  font-family: 'Roboto';
+  font-family: "roboto";
   color: #fff;
   text-align: center;
   padding: 0; }
@@ -271,7 +268,7 @@ main {
   width: 220px;
   margin-left: 20%;
   font-size: 1.5rem;
-  font-family: 'Roboto';
+  font-family: "roboto";
   color: #fff;
   text-align: center; }
 
@@ -280,7 +277,7 @@ main {
   width: 220px;
   margin-left: 20%;
   font-size: 1.5rem;
-  font-family: 'Roboto';
+  font-family: "roboto";
   color: #fff;
   text-align: center;
   padding: 0%; }
@@ -290,7 +287,7 @@ main {
   width: 220px;
   margin-left: 20%;
   font-size: 1.5rem;
-  font-family: 'Roboto';
+  font-family: "roboto";
   color: #fff;
   text-align: center;
   padding: 0%; }
@@ -321,7 +318,7 @@ main {
   color: #fff;
   font-size: 4rem;
   text-align: center;
-  font-family: 'oswald'; }
+  font-family: "oswald"; }
 
 .videos {
   height: 100px; }
@@ -446,7 +443,7 @@ main {
   text-align: center;
   font-size: 2rem;
   margin: 0;
-  font-family: 'oswald'; }
+  font-family: "oswald"; }
 
 aside {
   background-color: #00000039;
@@ -499,12 +496,7 @@ aside {
   grid-template-rows: 0.1f 1fr 1fr 0.1fr 1fr 0.1f;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "header header header"
- "tienda1 tienda1 tienda1"
- "tienda1 tienda1 tienda1"
- "tienda1 tienda1 tienda1"
- "tienda2 tienda2 tienda2"
- "footer footer footer";
+  grid-template-areas: "header header header" "tienda1 tienda1 tienda1" "tienda1 tienda1 tienda1" "tienda1 tienda1 tienda1" "tienda2 tienda2 tienda2" "footer footer footer";
   margin-bottom: 0%; }
 
 .header {
@@ -542,8 +534,8 @@ aside {
   background-color: #ffffff; }
 
 .mb-6 {
-  color: #ffffff;
-  font-family: 'roboto';
+  color: #fff;
+  font-family: "roboto";
   font-size: 1.5rem; }
 
 .Div1__somos {
@@ -551,7 +543,7 @@ aside {
   background-color: #000000;
   height: 30%;
   font-size: 2rem;
-  color: white;
+  color: #fff;
   display: flex;
   flex-direction: row;
   margin-bottom: 10%; }
@@ -570,14 +562,14 @@ aside {
   height: 100%; }
 
 .titulos_1 {
-  background-color: black;
+  background-color: #000000;
   left: 10px;
   width: 50%; }
 
 h5 {
-  color: #ffffff;
+  color: #fff;
   text-align: center;
-  font-family: 'roboto'; }
+  font-family: "roboto"; }
 
 .div1_somos_p {
   background-color: #ae0f7e;
@@ -603,7 +595,7 @@ h5 {
   background-color: #b57412;
   font-size: 3rem;
   color: #fff;
-  color: white;
+  color: #fff;
   display: flex;
   flex-direction: row;
   margin-bottom: 10%; }
@@ -629,13 +621,13 @@ h5 {
   width: 100%; }
 
 .tus_idolos {
-  background-color: black;
-  color: #ffffff; }
+  background-color: #000000;
+  color: #fff; }
 
 h5 {
-  font-family: 'oswald';
+  font-family: "oswald";
   font-size: 3rem;
-  color: #fffdfd; }
+  color: #fff; }
 
 .h6 {
   color: #000000;
@@ -729,7 +721,7 @@ h5 {
 /*estilos PARA LA PAGINA CONTACTO*/
 .main__contacto {
   height: 100vh;
-  background-color: white; }
+  background-color: #fff; }
 
 .main__contacto__seccion {
   height: 80%;

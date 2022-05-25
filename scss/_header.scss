@@ -32,7 +32,7 @@ background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, 
 
 /* background-color: #010101; */
 font-size: 1.7rem;
-color: #fff;
+color: $color-font;
 font-weight: bold;
 display: flex;
 flex-direction: column;
@@ -60,7 +60,7 @@ font-family: 'roboto flex';
 
     text-decoration: none;
     font-size: 2rem;
-    color: white;
+    color: $color-font;
     gap: 40px;
     padding-right: 1rem;
     transition-property: all;

@@ -1,0 +1,73 @@
+@import "variables";
+
+/* ESTILO GIFT CARD */
+
+.seccion{
+    /*va a tener 35% del contenedor padre,(body)*/
+  height:35%;
+}
+
+/*estilos PARA LA PAGINA CONTACTO*/
+
+.main__contacto{
+    
+   height: 100vh;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+.main__contacto__seccion{   
+ 
+   height:80%;
+   width: 100%;
+   
+}
+
+.fondo__formulario{
+    background-image: url("../assets/espalda.figuras-depositphotos-bgremover.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: center;
+    height:90%;
+    
+  }
+.caja__formulario{
+    width: 50%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.566);
+    text-align: center;
+    margin:0 auto; /*centramos el contenedor*/
+   
+}
+
+.formulario{
+    padding:2px;
+}
+
+.formulario input,textarea{
+    font-size: 1.6rem;
+    
+}
+
+.formulario, p {   
+       
+    font-size: 2rem;
+    color: #fff;
+}
+
+.colorform {
+    background-color: rgba(0, 0, 0, 0)
+
+}
+.separador {
+
+    margin-top: 10.5%;
+  background-color: #000000;
+    width: 100%;
+    color: #fff;
+}
+
+.separador_p {
+    color: #fff;
+    text-align: center;
+}

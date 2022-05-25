@@ -1,0 +1,127 @@
+@import "variables";
+
+/* ESTILOS MAKING OF */
+
+
+.artista_h1 {
+
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
+
+.main_making {
+
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+    background-color: rgb(255, 255, 255);
+    margin-top: 0%;
+    margin-bottom: 0%;
+   
+
+}
+
+.post {
+
+    font-size: 20px;
+    color: #000000;
+}
+
+.pintura {
+
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.titulos__header {
+    display: flex;
+    justify-content: center;
+    background-color: #03083b;
+    color: #fff;
+
+}
+
+/* se agregan filtros a los videos */
+
+.artista {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.artista:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.diseno {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.diseno:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.impresion {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.impresion:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.post1{
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.post1:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.pintura {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
+
+.pintura:hover {
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+
+

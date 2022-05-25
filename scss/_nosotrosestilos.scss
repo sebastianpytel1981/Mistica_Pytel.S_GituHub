@@ -1,0 +1,172 @@
+@import "variables";
+
+
+/* ESTILOS NOSOTROS*/
+
+
+.somos_mistica  {
+    
+   
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center;
+    float: right; */
+    margin-top: 0%;
+
+}
+
+.div_somos {
+
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+
+}
+
+.mb-6 {
+
+    color: #ffffff;
+    
+    font-family: 'roboto';
+    font-size: 1.5rem;
+
+}
+
+.Div1__somos {
+
+    width: 100%;
+    background-color: #000000;
+    height: 30%;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+   
+}
+
+.row {
+    
+    background-color: #000000;
+}
+.col-md-6  {
+ background-color: #000000;
+ height: 21rem;
+ margin: 0px;
+}
+
+.pantalla2 {
+    position: relative;
+    left: 40%;  
+    height: 100%;
+}
+
+.titulos_1  {
+
+    background-color: rgb(0, 0, 0);
+    left: 10px;
+    width: 50%;
+   
+}
+
+h5  {
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'roboto';
+    
+}
+
+.div1_somos_p {
+
+  
+    background-color: #ae0f7e;
+    width: 30%;
+    height: 70%;
+    color: #fff;
+    right: 20px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5%;
+    overflow: -moz-hidden-unscrollable;
+    
+}
+
+.imagen1 {
+      
+    position: absolute; 
+   left: 55px;
+   bottom: 35%;
+   width: 20rem;
+   height: 25rem;
+
+}
+
+
+.Div2__somos {
+
+    width: 100%;
+    height: 30%;
+    background-color: #b57412;
+    
+    font-size: 3rem;
+    color: #fff;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+    
+}
+
+
+.div1_somos_p2{
+
+    
+    background-color: #258a1a;
+    width: 30%;
+    color: #fff;
+    right: 20px;
+    margin-top: 5%;
+    font-size: 2rem;
+    overflow: hidden;
+    
+}
+
+
+.imagen2 {
+    position: relative;
+    right: 80%;
+    bottom: 40%;
+    width: 5%;
+    height: 15%;
+      
+} 
+
+.video_b {
+    height: 100%;
+    width: 100%;
+
+}
+
+.tus_idolos {   
+
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+h5 {
+
+    font-family: 'oswald';
+    font-size: 3rem;
+    color: #fffdfd;
+
+}
+
+.h6 {
+    color: #000000;
+    font-size: 4rem;
+}

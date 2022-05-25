@@ -1,0 +1,233 @@
+@import "variables";
+
+
+/* ESTILOS TIENDA */
+
+
+ .main_tienda {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.section_tienda {
+
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.tienda__Burrito {
+float: right;
+
+}
+
+/* se agrega hover al carrito */
+
+.carrito {
+
+background-color: rgb(64, 145, 64);
+font-size: 2rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+color: #fff;
+padding-left:  5%;
+padding-right: 5%;
+
+transition-property: all;
+transition-duration: 0.1s;
+transition-delay: 0.1s;
+
+}
+
+.carrito:hover {
+
+background-color: rgb(112, 217, 112);
+
+}
+
+.section_tienda2 {
+
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.tienda__Burrito2 {
+float: right;
+
+
+}
+
+.tienda_carrito {
+
+font-size: 2rem;
+color: #080808;
+}
+
+
+.tienda_carrito, p {
+
+color: #000000;
+}
+
+.tienda_carrito1 {
+
+background-color: #000000;
+color: #fff;
+
+}
+
+.Detalle_tienda {
+
+
+font-size: 2rem;
+color: #080808;
+}
+
+.Detalle_tienda_ul {
+
+font-size: 1.5rem;
+color: #080808;
+
+}
+
+.fotos_continuas {
+
+margin-top: 0%;
+margin-bottom: 0%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 10rem;
+width: 100%;
+
+}
+
+.fotos_continuas img {  
+width: 10%;
+transition-property: all;
+transition-duration: 0.3s;
+transition-delay: 0.3s;
+
+}
+
+.fotos_continuas img:hover {
+transform: scale(1.05);
+filter: brightness(1.1);
+}
+
+
+.titulo_tienda {
+background-color:rgb(2, 2, 46);
+width: 100%;
+text-align: center;
+font-size: 2rem;
+margin: 0;
+font-family: 'oswald';
+}
+
+aside {
+background-color: #00000039;
+width: 100%;
+}
+
+.aside {
+
+margin-top: 0%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 10rem;
+width: 100%;
+color: #000000;
+font-size: 1.5rem;
+text-align: center;
+
+}
+
+.aside__tienda--boc { 
+
+transition-property: all;
+transition-duration: 0.3s;
+transition-delay: 0.3s;
+
+}
+.aside__tienda--boc:hover {
+
+transform: scale(1.01);
+filter: brightness(1.1);
+
+}
+
+.aside__tienda--ind { 
+
+transition-property: all;
+transition-duration: 0.3s;
+transition-delay: 0.3s;
+
+}
+.aside__tienda--ind:hover {
+
+transform: scale(1.01);
+filter: brightness(1.1);
+
+}
+
+.aside__tienda--san { 
+
+transition-property: all;
+transition-duration: 0.3s;
+transition-delay: 0.3s;
+
+}
+.aside__tienda--san:hover {
+
+transform: scale(1.01);
+filter: brightness(1.1);
+
+}
+
+/* ESTILOS TIENDA2*/
+
+.container_tienda {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1f 1fr 1fr 0.1fr 1fr 0.1f;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header"
+      "tienda1 tienda1 tienda1"
+      "tienda1 tienda1 tienda1"
+      "tienda1 tienda1 tienda1"
+      "tienda2 tienda2 tienda2"
+      "footer footer footer";
+      margin-bottom: 0%;
+  }
+  
+  .header { 
+      grid-area: header; }
+  
+  .tienda1 { 
+      grid-area: tienda1; }
+  
+  .tienda2 {
+       grid-area: tienda2; }
+  
+  .footer { 
+      grid-area: footer; }
+  
+.gift {
+position: absolute;
+ left: 30%;
+ top: 8%;
+    
+}   

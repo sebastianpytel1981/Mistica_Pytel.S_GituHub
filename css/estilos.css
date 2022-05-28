@@ -10,9 +10,8 @@
 html {
   font-size: 62.5%;
   font-family: 'oswald'; }
-
-body {
-  height: 100vh; }
+  html body {
+    height: 100vh; }
 
 /* ESTILOS GENERALES HEADER */
 #header {
@@ -49,6 +48,9 @@ body {
   background-image: linear-gradient(to right, #292727, #1a1919, #000000, #292727, #0e0e0f, #41424b, #9e9ead);
   gap: 20px; }
 
+.navbar-navhover {
+  color: #65606a; }
+
 .navbar-nav ul a {
   text-decoration: none;
   font-size: 2rem;
@@ -59,18 +61,17 @@ body {
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
 
-.navbar-nav:hover {
-  color: #65606a; }
-
 .navbar-toggler-icon {
   height: 5rem;
   width: 5rem; }
 
 /* ESTILOS FOOTER */
+/* se agrega hover al footer */
 #footer {
   background-color: #050505;
   width: 100%;
-  text-decoration: none; }
+  text-decoration: none;
+  list-style-type: none; }
 
 .titulos__footer {
   text-decoration: none;
@@ -82,9 +83,10 @@ body {
 .footer__nav {
   font-size: 2rem;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none; }
 
-/* se agrega hover al footer */
 .footer_nav a {
   color: #bfb8b8;
   font-size: 1.5rem;
@@ -92,13 +94,14 @@ body {
   text-decoration: none;
   transition-property: all;
   transition-duration: 0.3s;
-  transition-delay: 0.3s; }
+  transition-delay: 0.3s;
+  list-style-type: none; }
+  .footer_nav a:hover {
+    color: #fff; }
 
 .footer li {
-  list-style: none; }
-
-.footer_nav a:hover {
-  color: #fff; }
+  list-style: none;
+  list-style-type: none; }
 
 .logo_footer {
   width: 5%;
@@ -152,10 +155,10 @@ aside {
   width: 100%;
   margin-bottom: 0%;
   /* background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281); */
-  background-color: #000000; }
+  background-color: #bd2020; }
 
 .d-block {
-  background-color: #000000; }
+  background-color: #bd2020; }
 
 .carousel-caption h1 {
   font-size: 6rem;
@@ -199,7 +202,7 @@ span {
   margin-bottom: 0;
   width: 100%;
   height: 10%;
-  background-color: #000000;
+  background-color: #bd2020;
   color: #fff;
   font-size: 4rem;
   text-align: center;
@@ -406,10 +409,10 @@ main {
   color: #080808; }
 
 .tienda_carrito, p {
-  color: #000000; }
+  color: #bd2020; }
 
 .tienda_carrito1 {
-  background-color: #000000;
+  background-color: #bd2020;
   color: #fff; }
 
 .Detalle_tienda {
@@ -462,7 +465,7 @@ aside {
   align-items: center;
   gap: 10rem;
   width: 100%;
-  color: #000000;
+  color: #bd2020;
   font-size: 1.5rem;
   text-align: center; }
 
@@ -544,7 +547,7 @@ aside {
 
 .Div1__somos {
   width: 100%;
-  background-color: #000000;
+  background-color: #bd2020;
   height: 30%;
   font-size: 2rem;
   color: #fff;
@@ -553,10 +556,10 @@ aside {
   margin-bottom: 10%; }
 
 .row {
-  background-color: #000000; }
+  background-color: #bd2020; }
 
 .col-md-6 {
-  background-color: #000000;
+  background-color: #bd2020;
   height: 21rem;
   margin: 0px; }
 
@@ -566,7 +569,7 @@ aside {
   height: 100%; }
 
 .titulos_1 {
-  background-color: #000000;
+  background-color: #bd2020;
   left: 10px;
   width: 50%; }
 
@@ -625,7 +628,7 @@ h5 {
   width: 100%; }
 
 .tus_idolos {
-  background-color: #000000;
+  background-color: #bd2020;
   color: #fff; }
 
 h5 {
@@ -634,7 +637,7 @@ h5 {
   color: #fff; }
 
 .h6 {
-  color: #000000;
+  color: #bd2020;
   font-size: 4rem; }
 
 /* ESTILOS MAKING OF */
@@ -761,7 +764,7 @@ h5 {
 
 .separador {
   margin-top: 10.5%;
-  background-color: #000000;
+  background-color: #bd2020;
   width: 100%;
   color: #fff; }
 

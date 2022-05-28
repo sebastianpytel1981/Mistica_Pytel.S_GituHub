@@ -62,6 +62,10 @@ body {
 .navbar-nav:hover {
   color: #65606a; }
 
+.navbar-toggler-icon {
+  height: 5rem;
+  width: 5rem; }
+
 /* ESTILOS FOOTER */
 #footer {
   background-color: #050505;
@@ -806,7 +810,7 @@ h5 {
   .gift {
     position: absolute;
     left: 0%;
-    top: 105%; }
+    top: 85%; }
   .imagen3 {
     position: relative;
     width: 2.5%;
@@ -855,7 +859,7 @@ h5 {
   .gift {
     position: absolute;
     left: 0%;
-    top: 105%; }
+    top: 85%; }
   .leyendas__Imagen_a_tienda {
     gap: 1.2rem; }
   .nuestras_leyendas_a {

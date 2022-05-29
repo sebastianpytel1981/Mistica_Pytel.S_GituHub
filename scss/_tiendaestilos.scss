@@ -6,20 +6,20 @@
 
  .main_tienda {
 
-    background-color: rgb(255, 255, 255);
+         background-color: rgb(255, 255, 255);
 }
 
 .section_tienda {
 
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 }
 
 .tienda__Burrito {
-float: right;
+        float: right;
 
 }
 
@@ -27,173 +27,162 @@ float: right;
 
 .carrito {
 
-background-color: $boton-carrito;
-font-size: 2rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-decoration: none;
-color: $color-font;
-padding-left:  5%;
-padding-right: 5%;
+        background-color: $boton-carrito;
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: $color-font;
+        padding-left:  5%;
+        padding-right: 5%;
 
-transition-property: all;
-transition-duration: 0.1s;
-transition-delay: 0.1s;
+        transition-property: all;
+        transition-duration: 0.1s;
+        transition-delay: 0.1s;
+
+        &:hover {
+
+        background-color: $boton-carrito-hov;
 
 }
-
-.carrito:hover {
-
-background-color: $boton-carrito-hov;
-
 }
 
 .section_tienda2 {
 
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 }
 
 .tienda__Burrito2 {
-float: right;
+        float: right;
 
 
 }
 
 .tienda_carrito {
 
-font-size: 2rem;
-color: #080808;
+        font-size: 2rem;
+        color: #080808;
 }
 
 
 .tienda_carrito, p {
 
-color: $fondo-general;
+        color: $fondo-general;
 }
+
+/*aplicado mapa */
 
 .tienda_carrito1 {
 
-background-color: $fondo-general;
-color: $color-font;
+        background-color: map-get($colores-leyendas, tienda-otros);
+        color: $color-font;
 
 }
 
 .Detalle_tienda {
 
 
-font-size: 2rem;
-color: #080808;
+        font-size: 2rem;
+        color: #080808;
 }
 
 .Detalle_tienda_ul {
 
-font-size: 1.5rem;
-color: #080808;
+        font-size: 1.5rem;
+        color: #080808;
 
 }
 
 .fotos_continuas {
 
-margin-top: 0%;
-margin-bottom: 0%;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-gap: 10rem;
-width: 100%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        width: 100%;
 
 }
 
 .fotos_continuas img {  
-width: 10%;
-transition-property: all;
-transition-duration: 0.3s;
-transition-delay: 0.3s;
+        width: 10%;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-delay: 0.3s;
 
+        &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
 }
-
-.fotos_continuas img:hover {
-transform: scale(1.05);
-filter: brightness(1.1);
 }
 
 
 .titulo_tienda {
-background-color:rgb(2, 2, 46);
-width: 100%;
-text-align: center;
-font-size: 2rem;
-margin: 0;
-font-family: $tipo-font-gral;
+        background-color:rgb(2, 2, 46);
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        margin: 0;
+        font-family: $tipo-font-gral;
 }
 
 aside {
-background-color: #00000039;
-width: 100%;
+        background-color: #918b8b39;
+        width: 100%;
 }
 
 .aside {
 
-margin-top: 0%;
+        margin-top: 0%;
 
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-gap: 10rem;
-width: 100%;
-color: $fondo-general;
-font-size: 1.5rem;
-text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        width: 100%;
+        color: $fondo-general;
+        font-size: 1.5rem;
+        text-align: center;
 
+}
+
+
+/* se aplica MIXIN */
+
+@mixin tiendaOtros {
+
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+
+    &:hover {
+        transform: scale(1.01);
+        filter: brightness(1.1);
+    }
 }
 
 .aside__tienda--boc { 
 
-transition-property: all;
-transition-duration: 0.3s;
-transition-delay: 0.3s;
-
-}
-.aside__tienda--boc:hover {
-
-transform: scale(1.01);
-filter: brightness(1.1);
+    @include tiendaOtros;
 
 }
 
 .aside__tienda--ind { 
 
-transition-property: all;
-transition-duration: 0.3s;
-transition-delay: 0.3s;
-
-}
-.aside__tienda--ind:hover {
-
-transform: scale(1.01);
-filter: brightness(1.1);
-
+    @include tiendaOtros;
 }
 
 .aside__tienda--san { 
 
-transition-property: all;
-transition-duration: 0.3s;
-transition-delay: 0.3s;
-
-}
-.aside__tienda--san:hover {
-
-transform: scale(1.01);
-filter: brightness(1.1);
-
+    @include tiendaOtros;
 }
 
 /* ESTILOS TIENDA2*/
@@ -231,3 +220,48 @@ position: absolute;
  top: 8%;
     
 }   
+
+/* estilos tienda otros antes de mixin */
+
+
+// .aside__tienda--boc { 
+
+//     transition-property: all;
+//     transition-duration: 0.3s;
+//     transition-delay: 0.3s;
+    
+//     }
+//     .aside__tienda--boc:hover {
+    
+//     transform: scale(1.01);
+//     filter: brightness(1.1);
+    
+//     }
+    
+//     .aside__tienda--ind { 
+    
+//     transition-property: all;
+//     transition-duration: 0.3s;
+//     transition-delay: 0.3s;
+    
+//     }
+//     .aside__tienda--ind:hover {
+    
+//     transform: scale(1.01);
+//     filter: brightness(1.1);
+    
+//     }
+    
+//     .aside__tienda--san { 
+    
+//     transition-property: all;
+//     transition-duration: 0.3s;
+//     transition-delay: 0.3s;
+    
+//     }
+//     .aside__tienda--san:hover {
+    
+//     transform: scale(1.01);
+//     filter: brightness(1.1);
+    
+//     }

@@ -10,5 +10,17 @@ $tipo-font-gral:'oswald';
 $tipo-font-gral2: 'roboto';
 
 
+/* mapas */
 
+$colores-leyendas: (
+        river: rgb(133, 10, 10),
+        boca: rgb(148, 180, 6),
+        independiente: rgb(243, 0, 24),
+        sanlorenzo: rgb(16, 26, 76),
+        tienda-otros: rgb(0, 0, 0),
 
+)
+
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */

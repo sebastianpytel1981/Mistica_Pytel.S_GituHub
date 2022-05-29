@@ -13,6 +13,14 @@ html {
   html body {
     height: 100vh; }
 
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILOS GENERALES HEADER */
 #header {
   grid-area: header; }
@@ -65,6 +73,10 @@ html {
   height: 5rem;
   width: 5rem; }
 
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILOS FOOTER */
 /* se agrega hover al footer */
 #footer {
@@ -108,6 +120,10 @@ html {
   position: absolute;
   right: 5px; }
 
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILOS INICIO */
 #grilla {
   display: grid;
@@ -265,6 +281,7 @@ main {
 .leyendas__Imagen_a_tienda--lqv:hover {
   transform: scale(1.05); }
 
+/* aplicado mapa */
 .parrafo__leyenda--riv {
   background-color: #850a0a;
   width: 220px;
@@ -276,7 +293,7 @@ main {
   padding: 0; }
 
 .parrafo__leyenda--boc {
-  background-color: #19004a;
+  background-color: #94b406;
   width: 220px;
   margin-left: 20%;
   font-size: 1.5rem;
@@ -295,7 +312,7 @@ main {
   padding: 0%; }
 
 .parrafo__leyenda--lqv {
-  background-color: black;
+  background-color: #101a4c;
   width: 220px;
   margin-left: 20%;
   font-size: 1.5rem;
@@ -369,6 +386,10 @@ main {
   flex-direction: column;
   align-items: flex-start; }
 
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILOS TIENDA */
 .main_tienda {
   background-color: white; }
@@ -395,9 +416,8 @@ main {
   transition-property: all;
   transition-duration: 0.1s;
   transition-delay: 0.1s; }
-
-.carrito:hover {
-  background-color: #70d970; }
+  .carrito:hover {
+    background-color: #70d970; }
 
 .section_tienda2 {
   width: 100%;
@@ -416,8 +436,9 @@ main {
 .tienda_carrito, p {
   color: #000000; }
 
+/*aplicado mapa */
 .tienda_carrito1 {
-  background-color: #000000;
+  background-color: black;
   color: #fff; }
 
 .Detalle_tienda {
@@ -444,10 +465,9 @@ main {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
-
-.fotos_continuas img:hover {
-  transform: scale(1.05);
-  filter: brightness(1.1); }
+  .fotos_continuas img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1); }
 
 .titulo_tienda {
   background-color: #02022e;
@@ -458,7 +478,7 @@ main {
   font-family: "oswald"; }
 
 aside {
-  background-color: #00000039;
+  background-color: #918b8b39;
   width: 100%; }
 
 .aside {
@@ -474,32 +494,30 @@ aside {
   font-size: 1.5rem;
   text-align: center; }
 
+/* se aplica MIXIN */
 .aside__tienda--boc {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
-
-.aside__tienda--boc:hover {
-  transform: scale(1.01);
-  filter: brightness(1.1); }
+  .aside__tienda--boc:hover {
+    transform: scale(1.01);
+    filter: brightness(1.1); }
 
 .aside__tienda--ind {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
-
-.aside__tienda--ind:hover {
-  transform: scale(1.01);
-  filter: brightness(1.1); }
+  .aside__tienda--ind:hover {
+    transform: scale(1.01);
+    filter: brightness(1.1); }
 
 .aside__tienda--san {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
-
-.aside__tienda--san:hover {
-  transform: scale(1.01);
-  filter: brightness(1.1); }
+  .aside__tienda--san:hover {
+    transform: scale(1.01);
+    filter: brightness(1.1); }
 
 /* ESTILOS TIENDA2*/
 .container_tienda {
@@ -528,6 +546,11 @@ aside {
   left: 30%;
   top: 8%; }
 
+/* estilos tienda otros antes de mixin */
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILOS NOSOTROS*/
 .somos_mistica {
   width: 100%;
@@ -645,6 +668,10 @@ h5 {
   color: #000000;
   font-size: 4rem; }
 
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILOS MAKING OF */
 .artista_h1 {
   font-size: 5rem;
@@ -680,51 +707,93 @@ h5 {
   color: #fff; }
 
 /* se agregan filtros a los videos */
-.artista {
+/* SE APLICA UN EXTEND A LOS ESTILOS DE LOS VIDEOS */
+.artista, .diseno, .impresion, .post1, .pintura {
   transition-property: all;
   transition-duration: 0.1s;
   transition-delay: 0.1s; }
+  .artista:hover, .diseno:hover, .impresion:hover, .post1:hover, .pintura:hover {
+    transform: scale(1.01);
+    filter: grayscale(1); }
+
+/* se guarda estilo sin extend */
+/*
+
+.artista {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
 
 .artista:hover {
-  transform: scale(1.01);
-  filter: grayscale(1); }
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
 
 .diseno {
-  transition-property: all;
-  transition-duration: 0.1s;
-  transition-delay: 0.1s; }
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
 
 .diseno:hover {
-  transform: scale(1.01);
-  filter: grayscale(1); }
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
 
 .impresion {
-  transition-property: all;
-  transition-duration: 0.1s;
-  transition-delay: 0.1s; }
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
 
 .impresion:hover {
-  transform: scale(1.01);
-  filter: grayscale(1); }
 
-.post1 {
-  transition-property: all;
-  transition-duration: 0.1s;
-  transition-delay: 0.1s; }
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+.post1{
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
 
 .post1:hover {
-  transform: scale(1.01);
-  filter: grayscale(1); }
+
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
 
 .pintura {
-  transition-property: all;
-  transition-duration: 0.1s;
-  transition-delay: 0.1s; }
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+}
 
 .pintura:hover {
-  transform: scale(1.01);
-  filter: grayscale(1); }
 
+    transform: scale(1.01);
+    filter: grayscale(1);
+}
+
+*/
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 /* ESTILO GIFT CARD */
 .seccion {
   /*va a tener 35% del contenedor padre,(body)*/
@@ -777,6 +846,10 @@ h5 {
   color: #fff;
   text-align: center; }
 
+/* mapas */
+/* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
+/* EXTEND SE INCLUYE EN makingofestilos.scss */
+/* MIXIN SE INCLUYE EN tiendaestilos.scss */
 @media screen and (max-width: 680px) {
   #header {
     font-size: 1.4rem; }

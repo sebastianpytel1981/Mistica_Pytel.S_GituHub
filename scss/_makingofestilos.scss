@@ -52,6 +52,51 @@
 }
 
 /* se agregan filtros a los videos */
+/* SE APLICA UN EXTEND A LOS ESTILOS DE LOS VIDEOS */
+
+.artista {
+
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+
+    &:hover {
+        transform: scale(1.01);
+    filter: grayscale(1);
+
+    }
+
+}
+
+.diseno {
+
+ @extend .artista;
+}
+
+.impresion {
+
+    @extend .artista;
+
+ }
+
+.post1{
+
+     @extend .artista;
+ }
+
+ .pintura {
+
+     @extend .artista;
+ }
+
+
+
+
+
+
+/* se guarda estilo sin extend */
+
+/*
 
 .artista {
 
@@ -123,5 +168,4 @@
     filter: grayscale(1);
 }
 
-
-
+*/

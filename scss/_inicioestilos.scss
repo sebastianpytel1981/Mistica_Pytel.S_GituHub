@@ -131,6 +131,7 @@ span {
 /*se agrega hover */
 .div_nuestras_leyendas {
    
+   text-decoration: none;
    margin-top: 2%;
    margin-bottom: 0;
    width: 100%;
@@ -147,6 +148,14 @@ span {
    transition-duration: 0.3s;
    transition-delay: 0.3s;
    background-image: $color-gradiente;
+  
+
+}
+
+.nuestras_leyendas {
+   
+   text-decoration: none;
+   color: $color-font;
 }
 
 .div_nuestras_leyendas:hover {

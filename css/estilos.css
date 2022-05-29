@@ -198,6 +198,7 @@ span {
 /* enlaces a tienda */
 /*se agrega hover */
 .div_nuestras_leyendas {
+  text-decoration: none;
   margin-top: 2%;
   margin-bottom: 0;
   width: 100%;
@@ -211,6 +212,10 @@ span {
   transition-duration: 0.3s;
   transition-delay: 0.3s;
   background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281); }
+
+.nuestras_leyendas {
+  text-decoration: none;
+  color: #fff; }
 
 .div_nuestras_leyendas:hover {
   color: #65606a; }

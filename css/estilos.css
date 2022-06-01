@@ -43,7 +43,7 @@ html {
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  font-family: 'roboto flex'; }
+  font-family: "oswald"; }
 
 .logo_header {
   width: 8%; }
@@ -70,8 +70,8 @@ html {
   transition-delay: 0.3s; }
 
 .navbar-toggler-icon {
-  height: 5rem;
-  width: 5rem; }
+  height: 3rem;
+  width: 3rem; }
 
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
@@ -83,7 +83,11 @@ html {
   background-color: #050505;
   width: 100%;
   text-decoration: none;
-  list-style-type: none; }
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .titulos__footer {
   text-decoration: none;
@@ -102,7 +106,7 @@ html {
 .footer_nav a {
   color: #bfb8b8;
   font-size: 1.5rem;
-  font-family: 'roboto flex';
+  font-family: "roboto";
   text-decoration: none;
   transition-property: all;
   transition-duration: 0.3s;
@@ -116,9 +120,15 @@ html {
   list-style-type: none; }
 
 .logo_footer {
-  width: 5%;
+  width: 3%;
   position: absolute;
   right: 5px; }
+
+.footer_nav_a {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  list-style-type: none; }
 
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
@@ -128,13 +138,9 @@ html {
 #grilla {
   display: grid;
   grid-template-areas: "header header header " "productos productos productos" "servicios servicios servicios" "footer footer footer";
-  /*grid-template-rows: 0.5fr 2fr 1fr 0.5fr; 
-      grid-template-columns: 20% auto 15%;*/
   grid-template-rows: 0.2fr 2fr 1fr 0.5fr;
   grid-template-columns: auto;
-  /* row-gap: 10px; */
   column-gap: 10px;
-  /* gap: 20px 10px; */
   height: 100vh;
   width: 100%; }
 
@@ -329,12 +335,6 @@ main {
 /*se modificó el gradiente */
 .section_video {
   width: 100%;
-  /* background-color: rgb(255, 255, 255); */
-  /* background-color: rgb(2, 2, 46); */
-  /* display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center; */
   background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6); }
 
 .div_nuestras_leyendas_1 {
@@ -360,6 +360,10 @@ main {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
+
+.card-img-top:hover {
+  transform: scale(1.04);
+  transition: transform 1s; }
 
 .nuestras_leyendas_a:hover {
   color: #d10c0c; }
@@ -408,7 +412,7 @@ main {
 .carrito {
   background-color: #409140;
   font-size: 2rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "oswald";
   text-decoration: none;
   color: #fff;
   padding-left: 5%;
@@ -546,7 +550,6 @@ aside {
   left: 30%;
   top: 8%; }
 
-/* estilos tienda otros antes de mixin */
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
 /* EXTEND SE INCLUYE EN makingofestilos.scss */
@@ -556,11 +559,6 @@ aside {
   width: 100%;
   height: 100vh;
   background-color: white;
-  /* display: flex;
-    flex-direction: column; */
-  /* justify-content: center;
-    align-items: center;
-    float: right; */
   margin-top: 0%; }
 
 .div_somos {
@@ -596,6 +594,12 @@ aside {
   left: 40%;
   height: 100%; }
 
+/*
+.pantalla3 {
+    position: relative;
+    left: 40%;  
+    height: 100%;
+} */
 .titulos_1 {
   background-color: #000000;
   left: 10px;
@@ -716,80 +720,11 @@ h5 {
     transform: scale(1.01);
     filter: grayscale(1); }
 
-/* se guarda estilo sin extend */
-/*
+.p {
+  font-family: "oswald";
+  color: black;
+  font-size: 2.5rem; }
 
-.artista {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.artista:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.diseno {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.diseno:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.impresion {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.impresion:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.post1{
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.post1:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.pintura {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.pintura:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-*/
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
 /* EXTEND SE INCLUYE EN makingofestilos.scss */
@@ -821,7 +756,8 @@ h5 {
   background-color: rgba(0, 0, 0, 0.566);
   text-align: center;
   margin: 0 auto;
-  /*centramos el contenedor*/ }
+  /*centramos el contenedor*/
+  border-radius: 3%; }
 
 .formulario {
   padding: 2px; }
@@ -846,6 +782,9 @@ h5 {
   color: #fff;
   text-align: center; }
 
+.pform {
+  font-size: 1.3rem; }
+
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
 /* EXTEND SE INCLUYE EN makingofestilos.scss */
@@ -856,6 +795,9 @@ h5 {
   .pantalla2 {
     position: relative;
     left: 40%; }
+  .logo_header {
+    height: 12%;
+    width: 12%; }
   .div_nuestras_leyendas {
     font-size: 3rem; }
   .nuestras_leyendas_a {
@@ -878,7 +820,7 @@ h5 {
   .imagen2 {
     bottom: 10%; }
   .pform {
-    font-size: 1.5rem; }
+    font-size: 0.8rem; }
   .Detalle_tienda {
     font-size: 1.5rem; }
   .Detalle_tienda_ul {
@@ -895,12 +837,30 @@ h5 {
   .imagen3 {
     position: relative;
     width: 2.5%;
-    height: 5%; } }
+    height: 5%; }
+  .section_tienda2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .logo_footer {
+    width: 0%;
+    position: absolute;
+    right: 5px; } }
 
 @media screen and (max-width: 800px) {
   .pantalla2 {
-    height: 0%;
-    width: 0%; } }
+    height: 50%;
+    width: 50%; }
+  .pantalla3 {
+    height: 50%;
+    width: 50%; }
+  .caja__formulario {
+    width: 80%; }
+  .pform {
+    font-size: 0.9rem; }
+  #inlineFormInputGroupUsername {
+    font-size: 0.7rem; } }
 
 @media screen and (max-width: 412px) {
   .header__nav ul a {
@@ -927,7 +887,7 @@ h5 {
   .imagen2 {
     bottom: 5%; }
   .pform {
-    font-size: 1.2rem; }
+    font-size: 0.75rem; }
   .Detalle_tienda {
     font-size: 1.2rem; }
   .Detalle_tienda_ul {
@@ -944,4 +904,8 @@ h5 {
   .leyendas__Imagen_a_tienda {
     gap: 1.2rem; }
   .nuestras_leyendas_a {
-    justify-content: flex-start; } }
+    justify-content: flex-start; }
+  .logo_footer {
+    width: 0%;
+    position: absolute;
+    right: 5px; } }

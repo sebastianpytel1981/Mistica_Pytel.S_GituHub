@@ -89,83 +89,12 @@
      @extend .artista;
  }
 
-
-
-
-
-
-/* se guarda estilo sin extend */
-
-/*
-
-.artista {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
+.p {
+    font-family: $tipo-font-gral;
+    color: $color-font2;
+    font-size: $tamanio-letra-p;
+    
+    
 
 }
 
-.artista:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.diseno {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.diseno:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.impresion {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.impresion:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.post1{
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.post1:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-.pintura {
-
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-delay: 0.1s;
-
-}
-
-.pintura:hover {
-
-    transform: scale(1.01);
-    filter: grayscale(1);
-}
-
-*/

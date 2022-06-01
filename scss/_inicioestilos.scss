@@ -10,13 +10,11 @@
       "servicios servicios servicios"
       "footer footer footer" ;
      
-      /*grid-template-rows: 0.5fr 2fr 1fr 0.5fr; 
-      grid-template-columns: 20% auto 15%;*/
       grid-template-rows: 0.2fr 2fr 1fr 0.5fr;
       grid-template-columns: auto;
-      /* row-gap: 10px; */
+     
       column-gap: 10px;
-      /* gap: 20px 10px; */
+      
       height: 100vh;
       width: 100%;
  }
@@ -300,14 +298,6 @@ main {
 
   
    width: 100%;
-   /* background-color: rgb(255, 255, 255); */
-   /* background-color: rgb(2, 2, 46); */
-   /* display: flex;
-   justify-content: center;
-   flex-direction: column;
-   align-items: center; */
-   // background-image: linear-gradient(to right top, #120c3b, #0d0e37, #090f32, #080f2d, #070f27, #0d1832, #13213d, #1a2948, #2a3d69, #3c528c, #5167b0, #687dd6);
-
    background-image: $color-grad-az;
 }
 
@@ -343,6 +333,13 @@ main {
    transition-duration: 0.3s;
    transition-delay: 0.3s;
    
+}
+
+
+.card-img-top:hover {
+   transform: scale(1.04);
+   transition: transform 1s;
+
 }
 
 .nuestras_leyendas_a:hover {

@@ -37,6 +37,7 @@
     background-color: $fondo-form;
     text-align: center;
     margin:0 auto; /*centramos el contenedor*/
+    border-radius: 3%;
    
 }
 
@@ -70,4 +71,8 @@
 .separador_p {
     color: $color-font;
     text-align: center;
+}
+
+.pform {
+    font-size: 1.3rem;
 }

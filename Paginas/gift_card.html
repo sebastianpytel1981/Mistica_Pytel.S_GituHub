@@ -74,6 +74,9 @@
         <div class="caja__formulario">
                         
            <h1>Solicitá tu Gift Card</h1>
+           
+
+           
 
           <section class="section__600"></section>
 
@@ -81,33 +84,71 @@
                 <form class="row g-3 d-flex justify-content-center  align-items-center colorform">
                 
                   <div class="col-5">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Ingresá tu nombre y apellido</label>
+                    <div class="input-group">
+                      <div class="input-group-text">De </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Ingresá tu nombre y apellido">
+                    </div>
                   </div>
                   <div class="col-5">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Ingresá tu dirección de correo electrónico</label>
+                    <div class="input-group">
+                      <div class="input-group-text">@ </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Ingresá tu dirección de correo electrónico">
+                    </div>
                   </div>
                   <div class="col-5">
-                    <input type="text" class="form-control" placeholder="teléfono" aria-label="número teléfono">
+                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Ingresá el nombre y apellido del destinatario</label>
+                    <div class="input-group">
+                      <div class="input-group-text">Para </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Ingresá el nombre y apellido del destinatario">
+                    </div>
                   </div>
                   <div class="col-5">
-                    <input type="text" class="form-control" placeholder="email" aria-label="email">
+                    <label class="visually-hidden" for="inlineFormInputGroupUsername">Ingresá su dirección de correo electrónico</label>
+                    <div class="input-group">
+                      <div class="input-group-text">@ </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Ingresá su dirección de correo electrónico">
+                    </div>
                   </div>
+
+
                   <div class="col-10">
-                    <textarea class="form-control" aria-label="With textarea" placeholder="¿Contanos cuanto querés pagar por tu gift card y para quién?"></textarea>
+                    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                    <select class="form-select" id="inlineFormSelectPref">
+                      <option selected>Elige una gift card</option>
+                      <option value="1">$5.000</option>
+                      <option value="2">$10.000</option>
+                      <option value="3">$20.000</option>
+                    </select>
+                  </div>
                   
+                  <div class="col-10">
+                    <span class="input-group-text">Escribile un mensaje de regalo</span>
+                    <textarea class="form-control" aria-label="Escribile un mensaje de regalo"></textarea>
+                  </div>
+
+                  <div class="col-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                      <label class="form-check-label" for="inlineFormCheck">
+                      Acepto términos y condiciones
+                      </label>
+                    </div>
                   </div>
                 
                   <div class="col-10 d-grid gap-2">
                     <input class="btn btn-success" type="submit" value="Enviar">
                   </div>
                   
-                  <p class="pform">Regala una Gift Card a un fanático <br>
+                  <p class="pform">Regalá una Gift Card a un fanático <br>
                     Envianos tus datos de contacto y cuanto monto querés regalar<br>
-                    Nosotros te enviamos el link de pago y la Gift Card <br>
-                    Para que se la regales a un fanático Místico <br>
-                    y pueda tener su leyenda en casa!</p>
+                    Nosotros te enviamos el link de pago y la Gift Card la recibe el 
+                    destinatario.
+                    </p>
+
                 </form>
-             </section>
+             </section> 
 
         </div>
       
@@ -140,7 +181,7 @@
        <img src="../assets/logo.png" class="logo_footer" alt="Logo Mistica">
       <nav class="footer_nav"> 
  
-       <ul class="footer_nav a">
+       <ul class="footer_nav_a">
          <li>  <a href="https://www.instagram.com/misticacoleccionables/" target="blank">Instagram</a></li>
          <li> <a href="https://www.facebook.com/M%C3%ADstica-Coleccionables-101322982374301"target="blank"> Facebook</a></li>
          <li> <a href="./nosotros.html">Sobre nosotros</a></li>

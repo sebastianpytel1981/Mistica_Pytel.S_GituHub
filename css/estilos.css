@@ -594,12 +594,11 @@ aside {
   left: 40%;
   height: 100%; }
 
-/*
 .pantalla3 {
-    position: relative;
-    left: 40%;  
-    height: 100%;
-} */
+  position: relative;
+  left: 40%;
+  height: 100%; }
+
 .titulos_1 {
   background-color: #000000;
   left: 10px;

@@ -31,6 +31,9 @@
     grid-area: productos;  
     /* display:grid; 
     grid-template-columns: repeat(3, 1fr);   */
+   //  background: rgb(2,0,36);
+   // background: linear-gradient(90deg, rgb(43, 43, 45) 0%, rgba(227,227,235,0.8802871490393032) 8%, rgba(19,11,11,1) 100%);
+   background-color: #000000;
  } 
  section#servicios {
     grid-area: servicios;     
@@ -134,7 +137,7 @@ span {
    margin-bottom: 0;
    width: 100%;
    height: 10%; 
-   background-color: $fondo-general;
+   // background-color: $fondo-general;
    // background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281);
    
    color: $color-font;
@@ -145,7 +148,7 @@ span {
    transition-property: all;
    transition-duration: 0.3s;
    transition-delay: 0.3s;
-   background-image: $color-gradiente;
+   // background-image: $color-gradiente;
   
 
 }
@@ -336,9 +339,27 @@ main {
 }
 
 
+.card {
+   background-color: #ffffff;
+  
+
+}
+
+.card-img-top {
+   transition-property: all;
+   transition-duration: 0.3s;
+   transition-delay: 0.3s;
+   transition: transform 1s;
+   width: 25rem; 
+   height: 45rem;
+
+}
+
 .card-img-top:hover {
    transform: scale(1.04);
-   transition: transform 1s;
+
+  
+   
 
 }
 
@@ -377,4 +398,8 @@ main {
    display: flex;
    flex-direction: column;
    align-items: flex-start;
+}
+
+.leyendas {
+   background: rgba(186, 186, 189, 0);
 }

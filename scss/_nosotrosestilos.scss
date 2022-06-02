@@ -4,15 +4,19 @@
 /* ESTILOS NOSOTROS*/
 
 
-.somos_mistica  {
+// .somos_mistica  {
     
    
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+//     width: 100%;
+//     height: 100vh;
+//     background-color: rgb(204, 25, 25);
     
-    margin-top: 0%;
+//     margin-top: 0%;
 
+// }
+
+#header {
+    width: 100%;
 }
 
 .div_somos {
@@ -23,154 +27,214 @@
 
 }
 
-.mb-6 {
-
-    color: $color-font;
-    
-    font-family: $tipo-font-gral2;
-    font-size: 1.5rem;
-
-}
-
-.Div1__somos {
+.titulo_somos {
 
     width: 100%;
-    background-color: $fondo-general;
-    height: 30%;
-    font-size: 2rem;
+    height: 60rem;
+    background-image: url("../assets/pipi\ nos.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    font-size: 8rem;
+    text-align: start;
+    margin-top: 1%;
     color: $color-font;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10%;
-   
-}
+    font-family:$tipo-font-gral2 ;
 
-.row {
     
-    background-color: $fondo-general;
-}
-.col-md-6  {
- background-color: $fondo-general;
- height: 21rem;
- margin: 0px;
 }
 
-.pantalla2 {
-    position: relative;
-    left: 40%;  
-    height: 100%;
-}
+.titulo_somos_b {   
 
-
-.pantalla3 {
-    position: relative;
-    left: 40%;  
-    height: 100%;
-} 
-
-
-.titulos_1  {
-
-    background-color: $fondo-general;
-    left: 10px;
-    width: 50%;
-   
-}
-
-h5  {
-
+    width: 100%;
+    height: 40rem;
+    background-image: url("../assets/bocha3.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    font-size: 4rem;
+    text-align: end;
+    margin-top: 1%;
     color: $color-font;
-    text-align: center;
+    font-family:$tipo-font-gral2 ;
+
+}
+
+ .mb-6 {
+
+    color: $color-font2;
+    
     font-family: $tipo-font-gral2;
-    
+    font-size: 2.5rem;
+    text-align: center;
+
 }
 
-.div1_somos_p {
+
+
+// .Div1__somos {
+
+//     width: 100%;
+//     background-color: $fondo-general;
+//     height: 30%;
+//     font-size: 2rem;
+//     color: $color-font;
+//     display: flex;
+//     flex-direction: row;
+//     margin-bottom: 10%;
+   
+// }
+
+// .row {
+    
+//     background-color: $fondo-general;
+    
+    
+// }
+// .col-md-6  {
+//  background-color: $fondo-general;
+//  height: 21rem;
+//  margin: 0px;
+
+// }
+
+// .fondoA {
+//     background-image: url("../assets/pipi\ nos.png");
+//     background-repeat: no-repeat;
+//     background-position: top;
+//     background-size: contain;
+//     height:100%;
+
+
+// }
+
+// .fondoB {
+//     background-image: url("../assets/bocha3.png");
+//     background-repeat: no-repeat;
+//     background-position: top;
+//     background-size: contain;
+//     height:100%;
+
+
+// }
+// .pantalla2 {
+//     position: relative;
+//     left: 40%;  
+//     height: 100%;
+// }
+
+
+// .pantalla3 {
+//     position: relative;
+//     left: 40%;  
+//     height: 100%;
+// } 
+
+
+// .titulos_1  {
+
+//     background-color: $fondo-general;
+//     left: 10px;
+//     width: 50%;
+   
+// }
+
+// h5  {
+
+//     color: $color-font;
+//     text-align: center;
+//     font-family: $tipo-font-gral2;
+    
+// }
+
+// .div1_somos_p {
 
   
-    background-color: #ae0f7e;
-    width: 30%;
-    height: 70%;
-    color: $color-font;
-    right: 20px;
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 5%;
-    overflow: -moz-hidden-unscrollable;
+//     background-color: #ae0f7e;
+//     width: 30%;
+//     height: 70%;
+//     color: $color-font;
+//     right: 20px;
+//     font-size: 3rem;
+//     text-align: center;
+//     margin-top: 5%;
+//     overflow: -moz-hidden-unscrollable;
     
-}
+// }
 
-.imagen1 {
+// .imagen1 {
       
-    position: absolute; 
-   left: 55px;
-   bottom: 35%;
-   width: 20rem;
-   height: 25rem;
+//     position: absolute; 
+//    left: 55px;
+//    bottom: 35%;
+//    width: 20rem;
+//    height: 25rem;
 
-}
+// }
 
 
-.Div2__somos {
+// .Div2__somos {
 
-    width: 100%;
-    height: 30%;
-    background-color: #b57412;
+//     width: 100%;
+//     height: 30%;
+//     background-color: #b57412;
     
-    font-size: 3rem;
-    color: $color-font;
-    color: $color-font;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10%;
+//     font-size: 3rem;
+//     color: $color-font;
+//     color: $color-font;
+//     display: flex;
+//     flex-direction: row;
+//     margin-bottom: 10%;
     
-}
+// }
 
 
-.div1_somos_p2{
+// .div1_somos_p2{
 
     
-    background-color: #258a1a;
-    width: 30%;
-    color: $color-font;
-    right: 20px;
-    margin-top: 5%;
-    font-size: 2rem;
-    overflow: hidden;
+//     background-color: #258a1a;
+//     width: 30%;
+//     color: $color-font;
+//     right: 20px;
+//     margin-top: 5%;
+//     font-size: 2rem;
+//     overflow: hidden;
     
-}
+// }
 
 
-.imagen2 {
-    position: relative;
-    right: 80%;
-    bottom: 40%;
-    width: 5%;
-    height: 15%;
+// .imagen2 {
+//     position: relative;
+//     right: 80%;
+//     bottom: 40%;
+//     width: 5%;
+//     height: 15%;
       
-} 
+// } 
 
-.video_b {
-    height: 100%;
-    width: 100%;
+// .video_b {
+//     height: 100%;
+//     width: 100%;
 
-}
+// }
 
-.tus_idolos {   
+// .tus_idolos {   
 
-    background-color: $fondo-general;
-    color: $color-font;
-}
+//     background-color: $fondo-general;
+//     color: $color-font;
+// }
 
-h5 {
+// h5 {
 
-    font-family: $tipo-font-gral;
-    font-size: 3rem;
-    color: $color-font;
+//     font-family: $tipo-font-gral;
+//     font-size: 3rem;
+//     color: $color-font;
 
-}
+// }
 
-.h6 {
-    color: $fondo-general;
-    font-size: 4rem;
-}
+// .h6 {
+//     color: $fondo-general;
+//     font-size: 4rem;
+// }

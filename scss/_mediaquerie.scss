@@ -126,7 +126,30 @@
             right: 5px;
         }
           
+        .footer_nav_a {
+            gap: 1rem;
+        }
+        .tienda_carrito1 {
+           
+           font-size: 1rem;
+         
+         }
+         
+         .card1-img-top {
+           
+            width: 10rem; 
+            height: 23rem;
+         
+         }
 
+         .mb-6 {
+
+            font-size: 1.5rem;
+            
+        
+        }
+
+        
     }
 
  @media screen and (max-width: 800px) {
@@ -154,6 +177,13 @@
         #inlineFormInputGroupUsername {
 
             font-size: 0.7rem;
+        }
+
+        .mb-6 {
+
+            font-size: 2rem;
+            
+        
         }
     }
 
@@ -265,7 +295,9 @@
                 right: 5px;
             }
               
-    
+            .footer_nav_a {
+                gap: 1rem;
+            }
   }
 
   

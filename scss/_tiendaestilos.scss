@@ -107,14 +107,18 @@
         align-items: center;
         gap: 10rem;
         width: 100%;
+        border: #000000;
 
 }
+
+
 
 .fotos_continuas img {  
         width: 10%;
         transition-property: all;
         transition-duration: 0.3s;
         transition-delay: 0.3s;
+      
 
         &:hover {
         transform: scale(1.05);
@@ -160,7 +164,8 @@ aside {
 .card1 {
         background-color: #ffffff;
         border-radius: 5%;
-       
+       box-shadow: 0px 0px 10px  #000000;
+       border-radius: 10px;
      
      }
      

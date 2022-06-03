@@ -134,6 +134,13 @@
            font-size: 1rem;
          
          }
+
+         .card-img-top {
+           
+            width: 20rem; 
+            height: 40rem;
+         
+         }
          
          .card1-img-top {
            
@@ -149,8 +156,63 @@
         
         }
 
+        .card-img-top {
+            
+            width: 17rem; 
+            height: 32rem;
+         
+         }
+         .titulo_somos {
+            font-size: 5rem;   
+          }
+
+          .titulo_somos_b {
+            font-size: 3rem;  
+
+          }
+
+          .h1n {
+            font-size: 3rem;
         
+        }
+        .h2n {
+            font-size: 3rem;
+        
+        }
+        .h23 {
+            font-size: 3rem;
+        
+        }
+
+        .mb-6 {
+
+            font-size: 1.8rem;
+        }
+
+        .fotos_continuas {
+
+           
+            gap: 5rem;
+            width: 100%;
+            
+    
     }
+    
+    
+    
+    .fotos_continuas img {  
+            width: 10%;
+            
+          
+    
+          
+    }
+
+    
+    }
+      
+        
+    
 
  @media screen and (max-width: 800px) {
 
@@ -185,6 +247,15 @@
             
         
         }
+        
+        .fotos_continuas {
+
+           
+            gap: 5rem;
+            width: 100%;
+            
+    
+    }
     }
 
  @media screen and (max-width: 412px) {
@@ -297,6 +368,10 @@
               
             .footer_nav_a {
                 gap: 1rem;
+            }
+
+            .titulo_somos {
+              font-size: 5rem;   
             }
   }
 

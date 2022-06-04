@@ -831,9 +831,11 @@ aside {
     gap: 5rem;
     width: 100%; }
   .fotos_continuas img {
-    width: 10%; } }
+    width: 10%; }
+  #inlineFormInputGroupUsername {
+    font-size: 0.7rem; } }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 681px) and (max-width: 800px) {
   .pantalla2 {
     height: 50%;
     width: 50%; }
@@ -902,4 +904,6 @@ aside {
   .footer_nav_a {
     gap: 1rem; }
   .titulo_somos {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  #inlineFormInputGroupUsername {
+    font-size: 0.7rem; } }

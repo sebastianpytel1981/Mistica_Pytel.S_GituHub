@@ -411,7 +411,7 @@ animation-duration: 7s;
 animation-delay: 1s;
     
  animation-iteration-count: infinite;
- animation-timing-function: ease;
+ animation-timing-function: ease-in;
     
    position: relative;
  }
@@ -494,33 +494,33 @@ animation-delay: 1s;
                        72% { 
                           left:72%;bottom:0px; }
                            74% {
-                           left:74%;bottom:8px; }
+                           left:74%;bottom:7px; }
                           76% {
                            left:76%;bottom:0px; }
                            78% {
-                              left:78%;bottom:8px; }
+                              left:78%;bottom:6px; }
                              80% {
                               left:80%;bottom:0px; }
                         82% { 
-                          left:82%;bottom:8px; }
+                          left:82%;bottom:5px; }
                            84% {
                            left:84%;bottom:0px; }
                           86% {
-                           left:86%;bottom:8px; }
+                           left:86%;bottom:4px; }
                            88% {
-                              left:88%;bottom:0px; }
-                             90% {
-                              left:90%;bottom:8px; }
-                     92% { 
-                          left:92%;bottom:0px; }
-                           94% {
-                           left:94%;bottom:8px; }
-                          96% {
-                           left:96%;bottom:0px; }
-                           98% {
-                              left:98%;bottom:8px; }
+                              left:88%;bottom:0px; 
+                           }
+                           90% { 
+                              width: 0%;
+                              height: 0%;
+                              bottom:0px;
+                           }   
+                           100% { 
+                              width: 0%;
+                              height: 0%;
+                              bottom:0px;
+                              left:91%;
+                           } 
+
               
-   
-      
-        
 } 

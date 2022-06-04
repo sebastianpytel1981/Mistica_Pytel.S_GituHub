@@ -233,13 +233,12 @@ span {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
+  .div_nuestras_leyendas:hover {
+    color: #65606a; }
 
 .nuestras_leyendas {
   text-decoration: none;
   color: #fff; }
-
-.div_nuestras_leyendas:hover {
-  color: #65606a; }
 
 main {
   display: flex;
@@ -264,27 +263,23 @@ main {
   align-items: center;
   flex-direction: column;
   transition: transform 1s; }
-
-.leyendas__Imagen_a_tienda--riv:hover {
-  transform: scale(1.05); }
+  .leyendas__Imagen_a_tienda--riv:hover {
+    transform: scale(1.05); }
 
 .leyendas__Imagen_a_tienda--boc {
   transition: transform 1s; }
-
-.leyendas__Imagen_a_tienda--boc:hover {
-  transform: scale(1.05); }
+  .leyendas__Imagen_a_tienda--boc:hover {
+    transform: scale(1.05); }
 
 .leyendas__Imagen_a_tienda--ind {
   transition: transform 1s; }
-
-.leyendas__Imagen_a_tienda--ind:hover {
-  transform: scale(1.05); }
+  .leyendas__Imagen_a_tienda--ind:hover {
+    transform: scale(1.05); }
 
 .leyendas__Imagen_a_tienda--lqv {
   transition: transform 1s; }
-
-.leyendas__Imagen_a_tienda--lqv:hover {
-  transform: scale(1.05); }
+  .leyendas__Imagen_a_tienda--lqv:hover {
+    transform: scale(1.05); }
 
 /* aplicado mapa */
 .parrafo__leyenda--riv {
@@ -359,6 +354,8 @@ main {
   transition-property: all;
   transition-duration: 0.3s;
   transition-delay: 0.3s; }
+  .nuestras_leyendas_a:hover {
+    color: #d10c0c; }
 
 .card {
   background-color: #dddcdc;
@@ -372,12 +369,8 @@ main {
   transition: transform 1s;
   width: 25rem;
   height: 45rem; }
-
-.card-img-top:hover {
-  transform: scale(1.02); }
-
-.nuestras_leyendas_a:hover {
-  color: #d10c0c; }
+  .card-img-top:hover {
+    transform: scale(1.02); }
 
 .video {
   position: relative;
@@ -393,13 +386,6 @@ main {
   width: 300px;
   margin: 0;
   height: 50%; }
-
-.nota_aviso_legal {
-  font-size: 1.2rem;
-  color: #080808;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; }
 
 .leyendas {
   background: rgba(186, 186, 189, 0); }
@@ -461,11 +447,11 @@ main {
 
 .Detalle_tienda {
   font-size: 2rem;
-  color: #080808; }
+  color: black; }
 
 .Detalle_tienda_ul {
   font-size: 1.5rem;
-  color: #080808; }
+  color: black; }
 
 .fotos_continuas {
   margin-top: 0%;
@@ -514,7 +500,7 @@ aside {
   text-align: center; }
 
 .card1 {
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 5%;
   box-shadow: 0px 0px 10px  #000000;
   border-radius: 10px; }
@@ -577,7 +563,7 @@ aside {
 .div_somos {
   width: 100%;
   height: 100%;
-  background-color: #ffffff; }
+  background-color: white; }
 
 .titulo_somos {
   width: 100%;
@@ -586,7 +572,7 @@ aside {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  background-color: black;
+  background-color: #000000;
   font-size: 8rem;
   text-align: start;
   margin-top: 1%;
@@ -600,7 +586,7 @@ aside {
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  background-color: black;
+  background-color: #000000;
   font-size: 4rem;
   text-align: end;
   margin-top: 1%;
@@ -651,11 +637,11 @@ aside {
 
 .post {
   font-size: 20px;
-  color: #000000; }
+  color: black; }
 
 .pintura {
   font-size: 20px;
-  color: #000000; }
+  color: black; }
 
 .titulos__header {
   display: flex;
@@ -856,7 +842,7 @@ aside {
 
 @media screen and (max-width: 412px) {
   .header__nav ul a {
-    font-size: 1rem; }
+    font-size: 0.9rem; }
   .div_nuestras_leyendas {
     font-size: 1rem; }
   .nuestras_leyendas_a {
@@ -883,7 +869,7 @@ aside {
   .Detalle_tienda {
     font-size: 1.2rem; }
   .Detalle_tienda_ul {
-    font-size: 1rem; }
+    font-size: 0.95rem; }
   .tienda_carrito1 {
     background-color: #000000;
     color: #fff; }
@@ -906,4 +892,4 @@ aside {
   .titulo_somos {
     font-size: 5rem; }
   #inlineFormInputGroupUsername {
-    font-size: 0.7rem; } }
+    font-size: 0.5rem; } }

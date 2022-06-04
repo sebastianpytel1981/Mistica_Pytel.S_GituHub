@@ -23,7 +23,7 @@
     font-size: 20px;
     text-align: center;
     
-    background-color: rgb(255, 255, 255);
+    background-color: $fondo-general-b;
     margin-top: 0%;
     margin-bottom: 0%;
    
@@ -33,13 +33,13 @@
 .post {
 
     font-size: 20px;
-    color: #000000;
+    color: $color-font2;
 }
 
 .pintura {
 
     font-size: 20px;
-    color: #000000;
+    color: $color-font2;
 
 }
 
@@ -62,7 +62,7 @@
 
     &:hover {
         transform: scale(1.01);
-    filter: grayscale(1);
+         filter: grayscale(1);
 
     }
 

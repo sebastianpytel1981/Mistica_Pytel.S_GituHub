@@ -58,7 +58,7 @@
    display: flex;
    flex-direction: inline-block;
    height: 70vh;
-  width: 100%;
+   width: 100%;
    margin-bottom: 0%;
    /* background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281); */
    background-color: $fondo-general;
@@ -141,7 +141,6 @@ span {
    // background-image: linear-gradient(to right, #090909, #141518, #0a0b0e, #0c0d11, #252527, #41424b, #727281);
    
    color: $color-font;
-
    font-size: 4rem;
    text-align: center;
    font-family: $tipo-font-gral;
@@ -149,6 +148,10 @@ span {
    transition-duration: 0.3s;
    transition-delay: 0.3s;
    // background-image: $color-gradiente;
+
+         &:hover {
+          color:rgb(101, 96, 106);
+   }
   
 
 }
@@ -159,9 +162,7 @@ span {
    color: $color-font;
 }
 
-.div_nuestras_leyendas:hover {
-   color:rgb(101, 96, 106);
-}
+
 
 main {
    display: flex;
@@ -191,42 +192,42 @@ main {
    align-items: center;
    flex-direction: column;
    transition: transform 1s;
+
+
+      &:hover {
+      transform: scale(1.05);
+
 }
-
-.leyendas__Imagen_a_tienda--riv:hover {
-   
-   transform: scale(1.05);
-
 }
-
 .leyendas__Imagen_a_tienda--boc {
 
    transition: transform 1s;
+
+
+      &:hover {
+      transform: scale(1.05);
 }
-
-.leyendas__Imagen_a_tienda--boc:hover {
-
-   transform: scale(1.05);
 }
-
 .leyendas__Imagen_a_tienda--ind {
 
    transition: transform 1s;
-}
 
-.leyendas__Imagen_a_tienda--ind:hover {
+
+   &:hover {
 
    transform: scale(1.05);
+}
 }
 
 .leyendas__Imagen_a_tienda--lqv {
 
    transition: transform 1s;
-}
 
-.leyendas__Imagen_a_tienda--lqv:hover {
+
+   &:hover {
 
    transform: scale(1.05);
+}
 }
 
 
@@ -336,6 +337,10 @@ main {
    transition-duration: 0.3s;
    transition-delay: 0.3s;
    
+      &:hover {
+      color: rgb(209, 12, 12);
+      
+   }
 }
 
 
@@ -355,20 +360,15 @@ main {
    width: 25rem; 
    height: 45rem;
 
-}
 
-.card-img-top:hover {
+
+      &:hover {
    transform: scale(1.02);
 
-  
-   
-
+  }
 }
 
-.nuestras_leyendas_a:hover {
-   color: rgb(209, 12, 12);
-   
-}
+
 
 .video {
 
@@ -393,15 +393,49 @@ main {
    
 }
 
-.nota_aviso_legal   {
-
-   font-size: 1.2rem;
-   color: #080808;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-}
 
 .leyendas {
    background: rgba(186, 186, 189, 0);
 }
+
+// .contenedor_corazon{
+//     width: 100px;
+//     height: 100px;
+//     background-color: rgba(0, 0, 0, 0);
+//     display: flex;
+//     align-items: center;
+//     /*animaciones*/
+//     animation-name: corazon_animado;
+//     animation-duration: 10s;
+//     animation-delay: 1s;
+    
+//     animation-iteration-count: infinite;
+//     animation-timing-function:ease-in;
+    
+//     position: relative;
+// }
+
+// .contenedor_corazon img{
+//     width: 100%;
+// }
+
+// @keyframes corazon_animado{
+//     0% {
+//         background-color: rgb(92, 2, 2);
+//         left:0px;top:0%;
+//      }
+//     25% {background-color: rgb(25, 226, 102); 
+//     left:85%;bottom:10px; }
+//     35% {background-color: rgb(163, 27, 129); 
+//     left:85%;bottom:0px; }
+//     50% {background-color: rgb(83, 7, 64); 
+//     left:85%;bottom:10px; }
+//     50% {background-color: rgb(83, 7, 64);
+//         left:85%;bottom:10px; }
+//     75% {background-color: rgb(197, 31, 72); 
+//     left:85%;bottom:0px; }
+//     100% {background-color: rgb(235, 139, 211);
+//          left:0%;top:10px; }
+
+         
+// }

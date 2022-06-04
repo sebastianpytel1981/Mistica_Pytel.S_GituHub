@@ -155,7 +155,7 @@ footer {
 
 section#productos {
   grid-area: productos;
-  /* display:grid; 
+  /* display:grid;
     grid-template-columns: repeat(3, 1fr);   */
   background-color: #000000; }
 
@@ -390,24 +390,24 @@ main {
 .leyendas {
   background: rgba(186, 186, 189, 0); }
 
-.contenedor_corazon {
+.contenedor_pelota {
   width: 100px;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(228, 23, 23, 0);
   display: flex;
   align-items: center;
-  animation-name: corazon_animado;
+  animation-name: pelota_animado;
   animation-duration: 7s;
   animation-delay: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   position: relative; }
 
-.contenedor_corazon img {
+.contenedor_pelota img {
   width: 80%;
   height: 80%; }
 
-@keyframes corazon_animado {
+@keyframes pelota_animado {
   0% {
     left: 0px;
     top: 35%; }
@@ -515,43 +515,33 @@ main {
     bottom: 0px; }
   70% {
     left: 70%;
-    bottom: 8px; }
-  72% {
-    left: 72%;
-    bottom: 0px; }
-  74% {
-    left: 74%;
-    bottom: 7px; }
-  76% {
-    left: 76%;
-    bottom: 0px; }
-  78% {
-    left: 78%;
-    bottom: 6px; }
-  80% {
-    left: 80%;
-    bottom: 0px; }
-  82% {
-    left: 82%;
-    bottom: 5px; }
-  84% {
-    left: 84%;
-    bottom: 0px; }
-  86% {
-    left: 86%;
-    bottom: 4px; }
-  88% {
-    left: 88%;
-    bottom: 0px; }
-  90% {
-    width: 0%;
-    height: 0%;
-    bottom: 0px; }
-  100% {
-    width: 0%;
-    height: 0%;
     bottom: 0px;
-    left: 91%; } }
+    visibility: hidden; }
+  /*  72% {
+                          left:72%;bottom:0px; }
+                           74% {
+                           left:74%;bottom:7px; }
+                          76% {
+                           left:76%;bottom:0px; }
+                           78% {
+                              left:78%;bottom:6px; }
+                             80% {
+                              left:80%;bottom:0px; }
+                        82% {
+                          left:82%;bottom:5px; }
+                           84% {
+                           left:84%;bottom:0px; }
+                           86% {
+                           left:86%;bottom:4px; }
+                           88% {
+                              left:88%;bottom:0px;
+                              
+
+                           }
+                           90% {
+                           visibility: hidden;
+                           bottom:0px;
+                           } */ }
 
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
@@ -936,7 +926,7 @@ aside {
   .gift {
     position: absolute;
     left: 0%;
-    top: 85%; }
+    top: 95%; }
   .imagen3 {
     position: relative;
     width: 2.5%;
@@ -966,7 +956,7 @@ aside {
     width: 17rem;
     height: 32rem; }
   .titulo_somos {
-    font-size: 5rem; }
+    font-size: 4.5rem; }
   .titulo_somos_b {
     font-size: 3rem; }
   .h1n {
@@ -978,10 +968,10 @@ aside {
   .mb-6 {
     font-size: 1.8rem; }
   .fotos_continuas {
-    gap: 5rem;
+    gap: 4rem;
     width: 100%; }
   .fotos_continuas img {
-    width: 10%; }
+    width: 9%; }
   #inlineFormInputGroupUsername {
     font-size: 0.7rem; }
   .contenedor_corazon img {
@@ -1014,6 +1004,8 @@ aside {
     width: 100%; } }
 
 @media screen and (max-width: 412px) {
+  .artista, .diseno, .impresion, .post1, .pintura {
+    width: 400px; }
   .header__nav ul a {
     font-size: 0.9rem; }
   .div_nuestras_leyendas {
@@ -1051,7 +1043,7 @@ aside {
   .gift {
     position: absolute;
     left: 0%;
-    top: 85%; }
+    top: 90%; }
   .leyendas__Imagen_a_tienda {
     gap: 1.2rem; }
   .nuestras_leyendas_a {
@@ -1063,6 +1055,14 @@ aside {
   .footer_nav_a {
     gap: 1rem; }
   .titulo_somos {
-    font-size: 5rem; }
+    font-size: 4.5rem; }
   #inlineFormInputGroupUsername {
-    font-size: 0.5rem; } }
+    font-size: 0.5rem; }
+  .caja__formulario {
+    width: 90%; } }
+
+@media screen and (max-width: 350px) {
+  .gift {
+    position: absolute;
+    left: 0%;
+    top: 95%; } }

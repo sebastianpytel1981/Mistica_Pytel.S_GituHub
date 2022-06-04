@@ -100,7 +100,7 @@
         .gift {
         position: absolute;
         left: 0%;
-        top: 85%;
+        top: 95%;
 
         }   
 
@@ -163,7 +163,7 @@
          
          }
          .titulo_somos {
-            font-size: 5rem;   
+            font-size: 4.5rem;   
           }
 
           .titulo_somos_b {
@@ -192,14 +192,14 @@
         .fotos_continuas {
 
            
-            gap: 5rem;
+            gap: 4rem;
             width: 100%;
             
     
     }
     
     .fotos_continuas img {  
-            width: 10%;
+            width: 9%;
             
                  
     }
@@ -310,6 +310,11 @@
 
  @media screen and (max-width: 412px) {
 
+    .artista {
+      
+        width: 400px;
+        
+     }
         
          .header__nav ul a {
 
@@ -396,7 +401,7 @@
         .gift {
             position: absolute;
             left: 0%;
-            top: 85%;
+            top: 90%;
             
             }   
 
@@ -421,13 +426,29 @@
             }
 
             .titulo_somos {
-              font-size: 5rem;   
+              font-size: 4.5rem;   
             }
 
             #inlineFormInputGroupUsername {
 
                 font-size: 0.5rem;
             }
+
+            .caja__formulario {
+                width: 90%;
+            }
   }
 
+  @media screen and (max-width: 350px) {
+
+    .gift   { 
+
+        position: absolute;
+        left: 0%;
+        top: 95%;
+
+
+    }
+
+  }
   

@@ -390,6 +390,48 @@ main {
 .leyendas {
   background: rgba(186, 186, 189, 0); }
 
+/*
+.contenedor_corazon{
+   width: 100px;
+height: 100px;
+ background-color: rgba(0, 0, 0, 0);
+ display: flex;
+align-items: center;
+
+ animation-name: corazon_animado;
+animation-duration: 10s;
+animation-delay: 1s;
+    
+ animation-iteration-count: infinite;
+ animation-timing-function:ease-in;
+    
+   position: relative;
+ }
+
+.contenedor_corazon img{
+    width: 100%;
+ }
+
+@keyframes corazon_animado{
+  0% {
+     background-color: rgb(92, 2, 2);
+      left:0px;top:0%;
+   }
+   25% {background-color: rgb(25, 226, 102); 
+   left:85%;bottom:50px; }
+   35% {background-color: rgb(163, 27, 129); 
+  left:85%;bottom:0px; }
+   50% {background-color: rgb(83, 7, 64); 
+   left:85%;bottom:10px; }
+   50% {background-color: rgb(83, 7, 64);
+        left:85%;bottom:10px; }
+  75% {background-color: rgb(197, 31, 72); 
+   left:85%;bottom:0px; }
+    100% {background-color: rgb(235, 139, 211);
+       left:0%;top:10px; }
+
+         
+} */
 /* mapas */
 /* MAPA SE INCLUYE EN variables, inicioestilos.scss y tiendaestilos.scss */
 /* EXTEND SE INCLUYE EN makingofestilos.scss */

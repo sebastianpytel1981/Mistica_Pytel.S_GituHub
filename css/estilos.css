@@ -820,7 +820,7 @@ aside {
 
 .caja__formulario {
   width: 50%;
-  height: 70%;
+  height: 90%;
   background-color: rgba(0, 0, 0, 0.566);
   text-align: center;
   margin: 0 auto;
@@ -851,6 +851,9 @@ aside {
   text-align: center; }
 
 .pform {
+  font-size: 1.3rem; }
+
+#inlineFormInputGroupUsername {
   font-size: 1.3rem; }
 
 /* mapas */
@@ -888,7 +891,7 @@ aside {
   .imagen2 {
     bottom: 10%; }
   .pform {
-    font-size: 0.8rem; }
+    font-size: 1rem; }
   .Detalle_tienda {
     font-size: 1.5rem; }
   .Detalle_tienda_ul {
@@ -948,7 +951,7 @@ aside {
   .fotos_continuas img {
     width: 9%; }
   #inlineFormInputGroupUsername {
-    font-size: 0.7rem; }
+    font-size: 1.3rem; }
   .contenedor_corazon img {
     width: 60%;
     height: 60%; }
@@ -969,14 +972,22 @@ aside {
   .caja__formulario {
     width: 80%; }
   .pform {
-    font-size: 0.9rem; }
+    font-size: 1rem; }
   #inlineFormInputGroupUsername {
-    font-size: 0.7rem; }
+    font-size: 1.3rem; }
   .mb-6 {
     font-size: 2rem; }
   .fotos_continuas {
     gap: 5rem;
     width: 100%; } }
+
+@media screen and (min-width: 577px) and (max-width: 680px) {
+  .caja__formulario {
+    width: 90%; } }
+
+@media screen and (max-width: 576px) {
+  .caja__formulario {
+    width: 90%; } }
 
 @media screen and (max-width: 412px) {
   .artista, .diseno, .impresion, .post1, .pintura {
@@ -1005,7 +1016,7 @@ aside {
   .imagen2 {
     bottom: 5%; }
   .pform {
-    font-size: 0.75rem; }
+    font-size: 1rem; }
   .Detalle_tienda {
     font-size: 1.2rem; }
   .Detalle_tienda_ul {
@@ -1032,7 +1043,7 @@ aside {
   .titulo_somos {
     font-size: 4.5rem; }
   #inlineFormInputGroupUsername {
-    font-size: 0.5rem; }
+    font-size: 1.3rem; }
   .caja__formulario {
     width: 90%; } }
 
@@ -1040,4 +1051,6 @@ aside {
   .gift {
     position: absolute;
     left: 0%;
-    top: 95%; } }
+    top: 95%; }
+  .caja__formulario {
+    width: 90%; } }

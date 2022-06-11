@@ -71,7 +71,7 @@
         }
 
         .pform {
-        font-size: 0.8rem;
+        font-size: 1rem;
         }
 
         .Detalle_tienda {
@@ -205,7 +205,7 @@
     }
     #inlineFormInputGroupUsername {
 
-        font-size: 0.7rem;
+        font-size: 1.3rem;
     }
     
     .contenedor_corazon img{
@@ -252,12 +252,12 @@
             width: 80%;
         }
         .pform {
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
 
         #inlineFormInputGroupUsername {
 
-            font-size: 0.7rem;
+            font-size: 1.3rem;
         }
 
         .mb-6 {
@@ -276,10 +276,22 @@
     }
     }
 
-//  @media screen and (max-width: 576px)  {
+    @media screen and (min-width: 577px) and (max-width: 680px)  {
+       
+        .caja__formulario {
+            width: 90%; }
+       
 
+    }
+      
+      
 
+ @media screen and (max-width: 576px)  {
+    .caja__formulario {
+        width: 90%;
+    }
 
+}
 //     #inlineFormInputGroupUsername {
 
 //         font-size: 0.7rem;
@@ -304,7 +316,7 @@
         
 //         font-size: 1rem;
 //     }
-// }
+// 
 
  
 
@@ -373,7 +385,7 @@
         }
         
         .pform {
-            font-size: 0.75rem;
+            font-size: 1rem;
         }
         
         .Detalle_tienda {
@@ -429,9 +441,11 @@
               font-size: 4.5rem;   
             }
 
+
+
             #inlineFormInputGroupUsername {
 
-                font-size: 0.5rem;
+                font-size: 1.3rem;
             }
 
             .caja__formulario {
@@ -446,9 +460,12 @@
         position: absolute;
         left: 0%;
         top: 95%;
-
-
     }
+
+        .caja__formulario {
+            width: 90%;
+        }
+  
 
   }
   

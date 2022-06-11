@@ -33,7 +33,7 @@
   }
 .caja__formulario{
     width: 50%;
-    height: 70%;
+    height: 90%;
     background-color: $fondo-form;
     text-align: center;
     margin:0 auto; /*centramos el contenedor*/
@@ -74,5 +74,10 @@
 }
 
 .pform {
+    font-size: 1.3rem;
+}
+
+#inlineFormInputGroupUsername {
+
     font-size: 1.3rem;
 }

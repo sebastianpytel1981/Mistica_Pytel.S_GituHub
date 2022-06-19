@@ -249,7 +249,7 @@
         }
 
         .caja__formulario {
-            width: 80%;
+            width: 100%;
         }
         .pform {
             font-size: 1rem;
@@ -279,7 +279,7 @@
     @media screen and (min-width: 577px) and (max-width: 680px)  {
        
         .caja__formulario {
-            width: 90%; }
+            width: 100%; }
        
 
     }
@@ -288,35 +288,10 @@
 
  @media screen and (max-width: 576px)  {
     .caja__formulario {
-        width: 90%;
+        width: 100%;
     }
 
 }
-//     #inlineFormInputGroupUsername {
-
-//         font-size: 0.7rem;
-//     }
-
-//     .header__nav ul a {
-
-//         font-size: 1rem;
-                       
-//         }
-
-//     .div_nuestras_leyendas { 
-     
-//       font-size: 1rem;
-//           }
-//      .nuestras_leyendas_a {
-
-//       font-size: 1rem;
-//      }
-
-//      .Detalle_tienda_ul {
-        
-//         font-size: 1rem;
-//     }
-// 
 
  
 
@@ -449,7 +424,7 @@
             }
 
             .caja__formulario {
-                width: 90%;
+                width: 100%;
             }
   }
 
@@ -463,7 +438,8 @@
     }
 
         .caja__formulario {
-            width: 90%;
+            width: 100%;
+            height: 95%;
         }
   
 

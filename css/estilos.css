@@ -819,7 +819,7 @@ aside {
   height: 90%; }
 
 .caja__formulario {
-  width: 50%;
+  width: 60%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.566);
   text-align: center;
@@ -970,7 +970,7 @@ aside {
     height: 50%;
     width: 50%; }
   .caja__formulario {
-    width: 80%; }
+    width: 100%; }
   .pform {
     font-size: 1rem; }
   #inlineFormInputGroupUsername {
@@ -983,11 +983,11 @@ aside {
 
 @media screen and (min-width: 577px) and (max-width: 680px) {
   .caja__formulario {
-    width: 90%; } }
+    width: 100%; } }
 
 @media screen and (max-width: 576px) {
   .caja__formulario {
-    width: 90%; } }
+    width: 100%; } }
 
 @media screen and (max-width: 412px) {
   .artista, .diseno, .impresion, .post1, .pintura {
@@ -1045,7 +1045,7 @@ aside {
   #inlineFormInputGroupUsername {
     font-size: 1.3rem; }
   .caja__formulario {
-    width: 90%; } }
+    width: 100%; } }
 
 @media screen and (max-width: 350px) {
   .gift {
@@ -1053,4 +1053,5 @@ aside {
     left: 0%;
     top: 95%; }
   .caja__formulario {
-    width: 90%; } }
+    width: 100%;
+    height: 95%; } }
